@@ -1,0 +1,130 @@
+body,html{
+	width:100%;
+	height:100%;
+}
+
+section{
+	position:relative;
+	width:100%;
+	min-height:100%;
+}
+
+h1{
+	margin:0;
+}
+.section{
+	background-color:#F0F0F0;
+}
+
+.section1{
+	background-color:#a51916;
+	height:50%;
+}
+.section2{
+	background-image:url('/cranio2/images/picpic.jpg');	
+	padding-bottom:5%;
+	padding-top:5%;
+}
+
+.section3{
+/*some code*/
+}
+.section4{
+	background-image:url('/cranio2/images/picpic2.jpg');	
+}
+
+.section5{
+	background-color:grey;
+	color:#fff;
+	min-height:50%;
+	padding-bottom:2%;
+}
+/*and for 1-index-footer sections */
+.section2,.section3,.section4{
+	min-height:80%!important;
+	padding-bottom:3%;
+	padding-top:3%;
+}
+/*for info show sections*/
+.section2,.section4{
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.cranio-logo{
+	text-align:center;
+}
+
+.index-text{
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.index-text p {
+	display:none;
+}
+
+.index{
+	margin-top:100px;
+}
+
+.down-arrow{
+	color:white;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	font-size:25px; 
+	text-align:center;
+}
+
+.arrows3{
+	color:grey;
+}
+
+.arrows1{
+
+}
+.icon{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:70px;
+}
+
+.image-footer{
+	text-align:center;
+	font-size: 17px;
+	margin-top:10px;
+}
+
+.horizontal-grid{
+	margin-top:20px;
+}
+
+.service{
+	display:none;
+}
+
+.section-info{
+	font-size:18px;
+	display:none;
+}
+
+.sn-icon{
+	width:120px;
+	margin:auto;
+	display:block;
+}
+
+.social-network{
+	display:none;
+	margin-top:10px;
+}
+.mail-h{
+	/*margin-top:10px;*/
+	margin-bottom:10px;
+	display:none;
+}
