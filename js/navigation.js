@@ -79,21 +79,12 @@ function section_scroll(){
 
 		if($(document).scrollTop()>($('.section5').offset().top-$('.section5').offset().top/5)){
 			$('.mail-h').fadeIn(250,function(){
-		   		$('.sn1').fadeIn(250,function(){
-		   			$('.sn2').fadeIn(250, function(){
-		   				$('.sn3').fadeIn(250);
+		   		$('.sn1').animate({opacity:"1"},250, function(){
+		   			$('.sn2').animate({opacity:"1"},250, function(){
+		   				$('.sn3').animate({opacity:"1"},250);
 		   			});
 		   		});
 			});
 		}
 	});
 }
-
-// function trigger_icons_popover(){
-// // 	$('.icon1').popover({content: "After saying these things, Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain of whom he spoke. One of his disciples, whom Jesus loved, was reclining at table at Jesus' side, so Simon Peter motioned to him to ask Jesus of whom he was speaking. So that disciple, leaning back against Jesus, said to him, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread when I have dipped it.' So when he had dipped the morsel, he gave it to Judas, the son of Simon Iscariot.",trigger: 'hover',container: 'body'});
-// // 	$('.icon2').popover({content: "After saying these things, Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain of whom he spoke. One of his disciples, whom Jesus loved, was reclining at table at Jesus' side, so Simon Peter motioned to him to ask Jesus of whom he was speaking. So that disciple, leaning back against Jesus, said to him, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread when I have dipped it.' So when he had dipped the morsel, he gave it to Judas, the son of Simon Iscariot.",trigger: 'hover',container: 'body'});
-// // 	$('.icon3').popover({content: "After saying these things, Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain of whom he spoke. One of his disciples, whom Jesus loved, was reclining at table at Jesus' side, so Simon Peter motioned to him to ask Jesus of whom he was speaking. So that disciple, leaning back against Jesus, said to him, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread when I have dipped it.' So when he had dipped the morsel, he gave it to Judas, the son of Simon Iscariot.",trigger: 'hover',container: 'body'});
-// // 	$('.icon4').popover({content: "After saying these things, Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain of whom he spoke. One of his disciples, whom Jesus loved, was reclining at table at Jesus' side, so Simon Peter motioned to him to ask Jesus of whom he was speaking. So that disciple, leaning back against Jesus, said to him, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread when I have dipped it.' So when he had dipped the morsel, he gave it to Judas, the son of Simon Iscariot.",trigger: 'hover',container: 'body'});
-// // 	$('.icon5').popover({content: "After saying these things, Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain of whom he spoke. One of his disciples, whom Jesus loved, was reclining at table at Jesus' side, so Simon Peter motioned to him to ask Jesus of whom he was speaking. So that disciple, leaning back against Jesus, said to him, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread when I have dipped it.' So when he had dipped the morsel, he gave it to Judas, the son of Simon Iscariot.",trigger: 'hover',container: 'body'});
-// // 	$('.icon6').popover({content: "After saying these things, Jesus was troubled in his spirit, and testified, 'Truly, truly, I say to you, one of you will betray me.' The disciples looked at one another, uncertain of whom he spoke. One of his disciples, whom Jesus loved, was reclining at table at Jesus' side, so Simon Peter motioned to him to ask Jesus of whom he was speaking. So that disciple, leaning back against Jesus, said to him, 'Lord, who is it?' Jesus answered, 'It is he to whom I will give this morsel of bread when I have dipped it.' So when he had dipped the morsel, he gave it to Judas, the son of Simon Iscariot.",trigger: 'hover',container: 'body'});
-// // }

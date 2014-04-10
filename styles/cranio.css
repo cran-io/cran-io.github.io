@@ -49,6 +49,7 @@ h1{
 .section2,.section4{
 	background-repeat:no-repeat;
 	background-attachment:fixed;
+	background-position:center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -68,7 +69,10 @@ h1{
 }
 
 .index{
-	margin-top:100px;
+	position:absolute;
+	top:50%;
+	margin-top:-179px;
+	width:100%;
 }
 
 .down-arrow{
@@ -76,7 +80,7 @@ h1{
 	position:absolute;
 	bottom:0;
 	width:100%;
-	font-size:2.4vh; 
+	font-size:24px; 
 	text-align:center;
 }
 
@@ -115,13 +119,14 @@ h1{
 }
 
 .sn-icon{
-	width:120px;
+	width:90px;
 	margin:auto;
 	display:block;
 }
-
+.sn1,.sn2,.sn3{
+	opacity:0;
+}
 .social-network{
-	display:none;
 	margin-top:10px;
 }
 .mail-h{
