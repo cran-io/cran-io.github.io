@@ -77,7 +77,7 @@ function section_scroll(){
 				});
 		}
 
-		if($(document).scrollTop()>($('.section5').offset().top-$('.section5').offset().top/5)){
+		/*if($(document).scrollTop()>($('.section5').offset().top-$('.section5').offset().top/5)){
 			$('.mail-h').fadeIn(250,function(){
 		   		$('.sn1').animate({opacity:"1"},250, function(){
 		   			$('.sn2').animate({opacity:"1"},250, function(){
@@ -85,6 +85,6 @@ function section_scroll(){
 		   			});
 		   		});
 			});
-		}
+		}*/
 	});
 }
