@@ -21,7 +21,7 @@ h1{
 	height:50%;
 }
 .section2{
-	background-image:url('/cran-io-web/images/jota1.jpg');	
+	background-image:url('../images/jota1.jpg');	
 	padding-bottom:5%;
 	padding-top:5%;
 }
@@ -30,7 +30,7 @@ h1{
 /*some code*/
 }
 .section4{
-	background-image:url('/cran-io-web/images/jota2.jpg');	
+	background-image:url('../images/jota2.jpg');	
 }
 
 .section5{
