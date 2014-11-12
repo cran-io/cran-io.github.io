@@ -120,7 +120,8 @@ h1{
 
 .section-title{
 	color:#a51916;
-	font-size:8vh;
+	font-size:9vh;
+	font-weight:bold;
 }
 
 .section-info{
@@ -129,7 +130,7 @@ h1{
 }
 
 .sn-icon{
-	width:90px;
+	width:60px;
 	margin:auto;
 	display:block;
 }
@@ -142,13 +143,14 @@ h1{
 .address-h{
 	font-size:3vh;
 	text-align:center;
-	margin-bottom:10px;
+	margin-bottom:20px;
 }
 
 .mail-h{
 	font-size:5vh;
+	font-weight:bold;
 	text-align:center;
-	margin-bottom:10px;
+	margin-bottom:20px;
 }
 
 .mail-h a{
