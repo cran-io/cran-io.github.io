@@ -17,7 +17,7 @@ h1{
 }
 
 .section1{
-	background-color:#a51916;
+	background-image:url('../images/section1.jpg');
 	height:50%;
 }
 .section2{
@@ -27,7 +27,7 @@ h1{
 }
 
 .section3{
-/*some code*/
+	text-align:center;
 }
 .section4{
 	background-image:url('../images/jota2.jpg');	
@@ -61,8 +61,9 @@ h1{
 
 .index-text{
 	color:white;
-	font-size:2.4vh;
+	font-size:5vh;
 	text-align:center;
+	padding-top:50px;
 }
 .index-text p {
 	display:none;
