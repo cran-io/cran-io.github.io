@@ -41,7 +41,7 @@ h1{
 .section5{
 	background-color:grey;
 	color:#fff;
-	min-height:40%;
+	padding-top:2.5%;
 	padding-bottom:5%;
 	text-align:center;
 }
@@ -102,10 +102,6 @@ h1{
 	width:9vh;
 }
 
-.row{
-	text-align:center;
-}
-
 .image-footer{
 	text-align:center;
 	font-size: 2.2vh;
@@ -113,6 +109,7 @@ h1{
 }
 
 .horizontal-grid{
+	text-align:center;
 	margin-top:20px;
 }
 
@@ -122,12 +119,13 @@ h1{
 }
 
 .section-title{
+	color:#a51916;
 	font-size:8vh;
 }
 
 .section-info{
+	opacity:0.5;
 	font-size:3vh;
-	font-style:color;
 }
 
 .sn-icon{
