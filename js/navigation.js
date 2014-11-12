@@ -13,7 +13,7 @@ $(function(){
 });
 
 
-var only_once=true;
+var only_once=false;
 function trigger_effect(){
 	if(only_once){
 		$('.section-info').cranioFade(1100);
