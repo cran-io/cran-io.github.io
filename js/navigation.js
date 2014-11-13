@@ -29,12 +29,10 @@ function section_scroll(){
 
 	//icons hover effects
 	$('.icon').mouseenter(function(){
-			console.log("hovered");
 			$(this).animate({'opacity': '0.5'},200);
 			$(this).parent().parent().find('.image-footer').animate({'opacity': '0.5'},200);
 	});
 	$('.icon').mouseleave(function(){
-			console.log("hovered");
 			$(this).animate({'opacity': '1'},200);
 			$(this).parent().parent().find('.image-footer').animate({'opacity': '1'},200);
 	});
