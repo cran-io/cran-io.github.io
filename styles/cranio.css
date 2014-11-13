@@ -27,7 +27,7 @@ h1{
 }
 
 .section3{
-	min-height:80%!important;
+	min-height:70%!important;
 	padding-bottom:3%;
 	padding-top:3%;
 	text-align:center;
@@ -79,7 +79,7 @@ h1{
 
 .index-text{
 	color:white;
-	font-size:23px;
+	font-size:40px;
 	text-align:center;
 	padding-top:50px;
 	text-shadow: 3px 3px 4px #000000;
@@ -138,11 +138,12 @@ h1{
 .section-title{
 	color:#a51916;
 	font-weight:bold;
+	font-size:50px;
 }
 
 .section-info{
 	opacity:0.5;
-	font-size:16px;
+	font-size:20px;
 }
 
 .sn-icon{
