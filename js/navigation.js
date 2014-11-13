@@ -1,8 +1,4 @@
 $(function(){
-
-	console.log($('.section2').width());
-	console.log($('.section2').height());
-
 	setTimeout(function(){
 			 $('.index-text').find('p').cranioFade(800); 
 	},200);
