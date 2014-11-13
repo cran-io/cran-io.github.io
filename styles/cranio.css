@@ -59,10 +59,27 @@ h1{
 .cranio-logo{
 	text-align:center;
 }
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
 
 .index-text{
 	color:white;
-	font-size:5vh;
+	font-size:23px;
 	text-align:center;
 	padding-top:50px;
 	text-shadow: 3px 3px 4px #000000;
@@ -99,12 +116,12 @@ h1{
 .icon{
 	display:block;
 	margin:auto;
-	width:9vh;
+	width:80px;
 }
 
 .image-footer{
 	text-align:center;
-	font-size: 2.2vh;
+	font-size:12px;
 	margin-top:10px;
 }
 
@@ -120,13 +137,12 @@ h1{
 
 .section-title{
 	color:#a51916;
-	font-size:9vh;
 	font-weight:bold;
 }
 
 .section-info{
 	opacity:0.5;
-	font-size:3vh;
+	font-size:16px;
 }
 
 .sn-icon{
@@ -141,13 +157,12 @@ h1{
 }
 
 .address-h{
-	font-size:3vh;
 	text-align:center;
 	margin-bottom:20px;
 }
 
 .mail-h{
-	font-size:5vh;
+	font-size:25px;
 	font-weight:bold;
 	text-align:center;
 	margin-bottom:20px;
