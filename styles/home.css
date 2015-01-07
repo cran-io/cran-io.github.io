@@ -1,0 +1,52 @@
+html, body, .section{
+	height: 100%;
+    width: 100%;
+
+}
+.interSection{
+	height: auto;
+    width: 1920px;
+    margin-top: -315px;
+
+}
+
+#section1{
+	background-image: url('../images/cranio.png');
+	background-repeat: no-repeat;
+   	background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+	
+}
+
+#interSection1{
+	width: 100%!important;
+	height:630px;
+	background-image: url('../images/intersection1.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: covntain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+
+#title{
+	color: white;
+	text-align: center;
+}
+
+#slogan{
+	color: white;
+	text-align: center;
+}
+
+.centered{
+	text-align: center;
+}
+
