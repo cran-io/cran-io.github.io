@@ -6,6 +6,9 @@ $(document).ready(function(){
   if(( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
  	$('.miniOnMobile').addClass("miniSize"); 
  	}
+ 	
+
+
  	// generate_gmap(-34.5854628, -58.4290632,"#googleMap");
  	function generate_gmap(lat,lng,srid) {
 		 var map;

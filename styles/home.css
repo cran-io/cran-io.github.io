@@ -1,29 +1,20 @@
-html, body, .section .container{
+html, body, section .container{
 	height: 100%;
     width: 100%;
-
+    margin: 0;
+    padding: 0;
+}
+section{
+	position: relative;
 }
 
 .section{
 	height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.interSectionInclined{
-    margin-top: -315px;
-    width: 100%!important;
-	height:600px;
-	background-image: url('../images/intersection1.png');
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: 100;
-    display: block;
-  	
 
-}
 .interSectionWeAreHiring{
     width: 100%!important;
 	height:30%;
@@ -52,28 +43,93 @@ html, body, .section .container{
     display: block;
 }
 
+.triangle{
+	width: 100%!important;
+	height: 250px!important;
+	background-image: url('../images/tr1.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.invertedTriangle{
+	width: 100%!important;
+	height: 250px!important;
+	background-image: url('../images/tr2.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.whiteTriangle{
+	width: 100%!important;
+	height: 250px!important;
+	background-image: url('../images/triangulo_blanco.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.invertedWhiteTriangle{
+	width: 100%!important;
+	height: 250px!important;
+	background-image: url('../images/triangulo_blanco_invertido.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+
 #cranio{
-	background-image: url('../images/cranio.png');
+	/*background-image: url('../images/cranio.png');
 	background-repeat: no-repeat;
    	background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;	
+    background-size: cover;	*/
+    background-color: red;
+    height: 100%!important;
+    position: relative;
+}
+#whatWeDo{
+	
+	height: 150%!important;
+	padding-top: 20%;
+	position:relative;
+	
 }
 #lastWorks{
 	background-color: #25252D;
-	margin-top: -200px;
-	margin-top: -285px;
-}
-#whatWeDo{
-	height: 150%!important;
-	padding-top: 15%;
-	margin-top: -200px;
-	margin-top: -285px;
-}
+	height: 100%!important;
+	position: relative;
 
+}
+#theTeam{
+	height: 150%!important;
+	padding-top: 20%;
+	position: relative;
+}
 #haveAnIdea{
 	background-image: url('../images/foto_galletitas.jpg');
     background-repeat: no-repeat;
@@ -85,7 +141,22 @@ html, body, .section .container{
     background-size: 100% 100%;	
     display: block;
   	max-width: 100%;
-  	height: auto;	
+  	height: 100%!important;	
+  	position: relative;
+}
+#location{
+	background-color: white;
+	height: 10%!important;
+	position: relative;
+}
+#googleMap{
+	background-color: grey; 
+	position: relative;
+}
+#icons{
+	background-color: #25252D;
+	height: 30%!important;
+	position: relative;
 }
 
 .myContainer {
@@ -110,73 +181,28 @@ html, body, .section .container{
     -o-background-size: 100% 100%;
     background-size: 100% 100%;	
     display: block;
-  	max-width: 100%;
-  	height: auto;
+  	max-width: 80%;
+  	height: 80%;
 
 }
 .onlyRow{
 	height:100%!important;
 
 }
-
-h2{
-	text-align: center;
-	font-size: 35px;
-}
-p{
-	color:white;
-	text-align: center;
-	font-size: 2vw;
-}
-.pBold{
-	color:white;
-	text-align: center;
-	font-weight: bold;
-	font-size: 2vw;
-}
-
-#googleMap{
-	background-color: grey; 
-	z-index: -1;
-}
-#section4{
-	
-    width: 100%!important;
-	height:300px;
-	margin-top: -255px;
-	background-image: url('../images/triangulo_azul.png');
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: contain;
-    -moz-background-size: covntain;
-    -o-background-size: contain;
-    background-size: contain;
-    z-index: 100;
-
+.withoutMargin{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 
 }
-#bottomDivSection4{
-	background-color: #25252D;
-}
 
-#title{
-	color: white;
-	text-align: center;
-}
-.superSize{
-	font-size: 700%;
-}
 .miniSize{
 	font-size: 100%;
-}
-#weAreHiring{
-	color: white;
-	font-size: 80px;
-}
-
-#slogan{
-	color: white;
-	text-align: center;
 }
 
 #mapContainer{
@@ -186,13 +212,35 @@ p{
 	 height:100%;
 	 position: absolute;
 }
+
 .centered{
+	color: #000000;
 	text-align: center;
+}
+.black{
+	color: #000000;
 }
 
 
-.whiteCentered{
-	text-align: center;
-	color: white;
+.white{
+	color: #ffffff
 }
+
+.col75{
+	height: 75%!important;
+	width: 100%;
+}
+.col25{
+	height: 75%!important;
+	width: 100%;
+}
+.col25{
+	height: 50%!important;
+	width: 100%;
+}
+.bottomDiv{
+	background-color: #25252D;
+}
+
+
 

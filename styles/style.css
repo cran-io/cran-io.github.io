@@ -1,0 +1,74 @@
+@font-face {
+ font-family: 'futuraBold';
+ src: url('../fonts/FuturaStd-Bold.otf') format('opentype');
+}
+@font-face {
+ font-family: 'futuraHeavy';
+ src: url('../fonts/FuturaStd-Heavy.otf') format('opentype');
+}
+@font-face {
+ font-family: 'futuraBook';
+ src: url('../fonts/FuturaStd-Book.otf') format('opentype');
+}
+@font-face {
+ font-family: 'helveticaNL';
+ src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format('opentype');
+}
+@font-face {
+ font-family: 'helveticaNM';
+ src: url('../fonts/HelveticaNeueLTStd-Md.otf') format('opentype');
+}
+
+.title{
+	color: white;
+	text-align: center;
+	font-family: 'futuraBold', sans-serif;
+	font-size: 150px;
+}
+
+.slogan{
+	color: white;
+	text-align: center;
+	font-family: 'futuraBook', sans-serif;
+	font-size: 40px;
+
+}
+.titles{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 60px;
+}
+.subTitles{
+	text-align: center;
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 30px;
+}
+
+.buttons{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 27px;
+
+}
+.textTitle{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 280%;
+}
+.text{
+	text-align: center;
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 170%;
+}
+.boldText{
+	text-align: center;
+	font-family: 'helveticaNM', sans-serif;
+	font-size: 170%;
+}
+.direction{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 27px;
+
+}
+
