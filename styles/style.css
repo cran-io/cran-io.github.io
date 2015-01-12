@@ -48,8 +48,17 @@
 	text-align: center;
 	font-family: 'futuraHeavy', sans-serif;
 	font-size: 27px;
+	color: #ffffff;
+  	font-size: 20px;
+  	border-radius: px;
+  	background: transparent;
+  	padding: 10px 20px 10px 20px;
+  	border: solid #ffffff 5px;
+  	text-decoration: none;
+  	vertical-align: middle;
 
 }
+
 .textTitle{
 	text-align: center;
 	font-family: 'futuraHeavy', sans-serif;
@@ -65,10 +74,47 @@
 	font-family: 'helveticaNM', sans-serif;
 	font-size: 170%;
 }
+.locationTitle{
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 45px;
+	color: black;
+}*/
 .direction{
 	text-align: center;
-	font-family: 'futuraHeavy', sans-serif;
+	font-family: 'helveticaNL', sans-serif;
 	font-size: 27px;
-
 }
+
+
+@media (max-width: 767px) {
+    .title{font-size: 60px;}
+	.slogan{font-size: 20px;}
+	.titles{font-size: 25px;}
+	.subTitles{font-size: 15px;}
+	.buttons{font-size: 18px;}
+	.textTitle{font-size: 100%;}
+	.text{font-size: 100%;}
+	.boldText{font-size: 100%;}
+	.locationTitle{font-size: 20px;}
+	.direction{font-size: 10px;}
+	.triangle{height: 10%!important;}
+	.invertedTriangle{height: 10%!important;}
+	.whiteTriangle{height: 10%!important;}
+	.invertedWhiteTriangle{height: 10%!important;}
+}
+
+/*@media (max-width: @screen-md) {
+ 	.title{font-size: 150px;}
+	.slogan{font-size: 40px;}
+	.titles{font-size: 60px;}
+	.subTitles{font-size: 30px;}
+	.buttons{font-size: 27px;}
+	.textTitle{font-size: 280%;}
+	.text{font-size: 170%;}
+	.boldText{font-size: 170%;}
+	.locationTitle{font-size: 5%;}
+	.direction{font-size: 27px;}
+}*/
+
+
 
