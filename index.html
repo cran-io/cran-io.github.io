@@ -10,13 +10,16 @@
 		<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="styles/home.css">	
 		<link rel="stylesheet" type="text/css" href="styles/style.css">	
+		<link rel="stylesheet" type="text/css" href="styles/dottastico.css">
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><!--API de Google Maps -->
 		<script src="js/home.js"></script>
+		<script src="js/dottastico.js"></script>
 
 		
 	</head>
 	<body>
-	 <section class="section " id="cranio" >
+	 <div class="dottastico" data-shape="circle" data-time="1600" data-size="17px" data-color="#B0B3B6" data-position="left"></div>
+	 <section class="section dottable_section" id="cranio" data-dottable-index="1">
 		
 			<div class="container  ">
 				<div class="row ">
@@ -37,7 +40,7 @@
 		</section>
 		
 		
-		<section class="section" id="whatWeDo">
+		<section class="section dottable_section" id="whatWeDo" data-dottable-index="2">
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
@@ -50,7 +53,7 @@
 			<div class="triangle"></div>
 		</section>
 
-		<section class="section" id="lastWorks">
+		<section class="section dottable_section" id="lastWorks" data-dottable-index="3">
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
@@ -63,7 +66,7 @@
 
 		</section>
 		
-		<section class="section" id="theTeam">
+		<section class="section dottable_section" id="theTeam" data-dottable-index="4">
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
@@ -86,7 +89,7 @@
 			</div>
 		
 		</section>
-		<section class="section " id="haveAnIdea">
+		<section class="section dottable_section" id="haveAnIdea" data-dottable-index="5">
 			<div class="container myContainer">
 					<div class="col-lg-6 col-xs-12 col-sm-6 divHaveAnIdea onlyRow">
 						<div class="row">
@@ -118,7 +121,7 @@
 			
 		</section>
 		
-		<section class="section" id="googleMap">
+		<section class="section dottable_section" id="googleMap" data-dottable-index="6">
 			<div id="mapContainer "> </div>
 			<div class="invertedWhiteTriangle"></div>
 			<div class="triangle"></div>
