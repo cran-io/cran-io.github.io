@@ -1,11 +1,6 @@
 $(document).ready(function(){
-  
-
- 	
-
-
- // 	// generate_gmap(-34.5854628, -58.4290632,"#googleMap");
- // 	function generate_gmap(lat,lng,srid) {
+ 	// 	// generate_gmap(-34.5854628, -58.4290632,"#googleMap");
+ 	// 	function generate_gmap(lat,lng,srid) {
 	// 	 var map;
 	// 	 var coordinates = new google.maps.LatLng(-34.5854628, -58.4290632);
 	// 	 var mapOptions = {
@@ -19,9 +14,25 @@ $(document).ready(function(){
 	// 	     position: coordinates
 	// 	 });
 	// }
-
+	var flag = true;
+	$(window).scroll(function(){
+		if(flag && $(window).scrollTop()>=$('#whatWeDo').offset().top && $(window).scrollTop()<$('#whatWeDo').offset().top+$('#whatWeDo').height()){
+			flag = false;
+			console.log(flag)
+			$('.laImagen').rotate({
+				angle : 0,
+				animateTo : 180,
+				easing : $.easing.easeInOutElastic, 
+				duration: 3000,
+				callback : function(){
+					$('.hardware,.software').fadeOut(1000,function(){
+						$('.hardware,.software').fadeIn(1000);
+					});
+				}
+		    });
+		}
+	});
 });
-
 
 // function generate_gmap(lat,lng,srid) {
 //  var map;
