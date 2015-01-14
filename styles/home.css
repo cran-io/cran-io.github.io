@@ -1,14 +1,3 @@
-.hardware{
-    /*margin-top:100px;*/
-}
-
-.software{
-    margin-top:200px;
-}
-.laImagen{
-    width:300px;
-}
-
 html, body, section {
 	height: 100%;
     width: 100%;
@@ -203,9 +192,41 @@ section{
     max-height: 100%;
   	height: 90%!important;*/
 }
+
 #rowHaveAnIdea{
     padding-top: 5%;
      
+}
+
+.hardwareDefinitionDiv{
+    margin-top: 2%!important;
+}
+
+.softwareDefinitionDiv{
+/*    margin-top:200px!important;*/
+    margin-top: 18%!important;
+}
+.softwareIconsDiv{
+/*    height: 70%!important;*/
+  /*  min-height: 100%!important;*/
+    
+}
+.hardwareIconsDiv{
+    height: 100%!important;
+    min-height: 100%!important;
+    
+}
+.singleIconDiv{
+    
+   /* min-height: 60px;
+    padding: 29px;
+    margin-bottom: 60px;*/
+    height: 35%!important;
+    display: inline;
+    overflow: visible;
+}
+.iconImages{
+    height: 60px;
 }
 .onlyRow{
 	height:100%!important;
@@ -292,5 +313,29 @@ section{
      opacity: 1;
 }
 
+
+.hardAndSoftRow{
+    margin-top: 15%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+/*    min-height: 70%;
+    max-height: 100%;*/
+}
+.hsImage{
+    vertical-align: middle;
+    width: 100%
+}
+
+.frame{
+    margin-top: 4.5%!important;
+    overflow: visible;
+}
+.invisible{
+    display: none;
+}
+.inline{
+    display: inline;
+}
 
 
