@@ -389,3 +389,20 @@ section{
   /*  left: 50%;*/
 
 }
+
+.myModalContent{
+    background-color: #25252D;
+    border: 1px solid white;
+    border-radius:0; 
+    color:white;
+    position: relative;
+  
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
