@@ -87,6 +87,20 @@ section{
     top: 0px;
     
 }
+.locationTriangle{
+    width: 100%!important;
+    height: 17.5%!important;
+    background-image: url('../images/triangulo_blanco.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+    
+}
 
 #cranio{
 	background-image: url('../images/cranio.jpg');
@@ -111,16 +125,18 @@ section{
     height: auto;   
 }
 
-#lastWorks{
+#mobileTechnology{
+    height: auto;   
+}
+
+#theTeam{
 	background-color: #25252D;
-    padding-top: 10%;
 	height: 100%!important;
 	position: relative;
 
 }
-#theTeam{
-	height: 100%!important;
-	padding-top: 10%;
+#lastWorks{
+	height: 130%!important;
 	position: relative;
 }
 #haveAnIdea{
@@ -139,7 +155,7 @@ section{
 }
 #location{
 	background-color: white;
-	height: 23%!important;
+	height: 15%!important;
 	position: relative;
     z-index: 10000;
 }
@@ -153,7 +169,7 @@ section{
     -o-background-size: cover;
     background-size: cover;
     background-color: grey; 
-    height: 100%!important; 
+    height: 70%!important; 
     display: block;
     max-width: 100%;
 	position: relative;
@@ -166,8 +182,9 @@ section{
 }
 #icons{
 	background-color: #25252D;
-	height: 20%!important;
+	height: 15%!important;
 	position: relative;
+    padding-bottom: 3px;
 }
 
 .myContainer {
@@ -342,4 +359,14 @@ section{
     display: inline;
 }
 
+.mobileWebIcon{
+    height: 120px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.worksImages{
+    height: 180px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
 
