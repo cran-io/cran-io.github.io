@@ -135,7 +135,7 @@ section{
 
 }
 #lastWorks{
-	height: 130%!important;
+	height: auto!important;
 	position: relative;
 }
 #haveAnIdea{
