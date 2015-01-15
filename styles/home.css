@@ -19,7 +19,7 @@ section{
 .interSectionWeAreHiring{
     width: 100%!important;
 	height:30%;
-    padding-top: 10%
+/*    padding-top: 6%;*/
 	background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: contain;
@@ -29,7 +29,7 @@ section{
     z-index: 100;
     background-color: #25252D;
     display: block;
-  	
+  	position: relative;
 
 }
 .triangle{
@@ -203,7 +203,8 @@ section{
     display: block;
   	max-width: 100%;
     max-height: 100%;
-  	height: 90%!important;*/
+  	height: 90%!important;
+    position: relative;
 }
 
 #rowHaveAnIdea{
@@ -365,8 +366,24 @@ section{
     margin-right: auto;
 }
 .worksImages{
-    height: 180px!important;
+    width: 95%!important;
     margin-left: auto;
     margin-right: auto;
 }
+.worksDiv{
+    margin-bottom: 15%;
+}
+.informacion{
+    display: none;
+}
+#weAreHiringButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.haveAnIdeaContent{
+    position: absolute;
+    width: auto; 
+    height: auto;
 
+}
