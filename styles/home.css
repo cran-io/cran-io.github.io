@@ -6,6 +6,7 @@ html, body, section {
 }
 section{
 	position: relative;
+    overflow:hidden!important;
 }
 
 .section{
@@ -141,8 +142,6 @@ section{
 	height: 23%!important;
 	position: relative;
     z-index: 10000;
-    overflow: visible;
-
 }
 #googleMap{
    background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=15&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
@@ -172,14 +171,8 @@ section{
 }
 
 .myContainer {
-  padding-right: 0px;
-  padding-left: 0px;
- /* padding-top: 50px;
-  padding-bottom: 30%;*/
-  margin-right: 0px;
-  margin-left: 0px;
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .divHaveAnIdea{
