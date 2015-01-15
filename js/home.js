@@ -8,16 +8,18 @@ $(document).ready(function(){
 			$('.hsImage').rotate({
 				angle : 0,
 				animateTo : 180,
-				easing : $.easing.easeInOutElastic, 
-				duration: 3000,
+				easing : $.easing.easeInOut, 
+				duration: 1500,
 				callback : function(){
 
-					$('.hardwareDefinitionDiv,.softwareDefinitionDiv').fadeOut(1000,function(){
-						$('#hardwareDef').addClass( "invisible" );
-						$('#softwareDef').addClass( "invisible" );
+					$('.hardwareDefinitionDiv,.softwareDefinitionDiv').fadeOut(800,function(){
+						$('#hardwareIcons').fadeIn(1500);
+						$('#softwareIcons').fadeIn(1500);
+
 						$('#hardwareIcons').removeClass( "invisible" );
 						$('#softwareIcons').removeClass( "invisible" );
-						// $('.hardwareDefinitionDiv,.softwareDefinitionDiv').fadeIn(1000);
+
+
 					});
 				}
 		    });

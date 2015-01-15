@@ -101,12 +101,15 @@ section{
     position: relative;
 }
 #whatWeDo{
-	
-	height: 100%!important;
-	padding-top: 10%;
+	height: 110%!important;
+
 	position:relative;
 	
 }
+#mobileWhatWeDo{
+    height: auto;   
+}
+
 #lastWorks{
 	background-color: #25252D;
     padding-top: 10%;
@@ -144,7 +147,7 @@ section{
 #googleMap{
    background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=15&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
     background-repeat: no-repeat;
-/*    background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,7 +167,7 @@ section{
 }
 #icons{
 	background-color: #25252D;
-	height: 30%!important;
+	height: 20%!important;
 	position: relative;
 }
 
@@ -226,7 +229,7 @@ section{
     overflow: visible;
 }
 .iconImages{
-    height: 60px;
+    height: 70px;
 }
 .onlyRow{
 	height:100%!important;
@@ -324,11 +327,19 @@ section{
 }
 .hsImage{
     vertical-align: middle;
-    width: 100%
+    width: 80%
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobilehsImage{
+    vertical-align: middle;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 .frame{
-    margin-top: 4.5%!important;
     overflow: visible;
 }
 .invisible{

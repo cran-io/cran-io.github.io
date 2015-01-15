@@ -19,7 +19,7 @@
 		
 	</head>
 	<body>
-	 <div class="dottastico" data-shape="circle" data-time="1600" data-size="17px" data-color="#B0B3B6" data-position="left"></div>
+	 <div class="dottastico hidden-xs hidden-sm" data-shape="circle" data-time="1600" data-size="17px" data-color="#B0B3B6" data-position="left"></div>
 	 <section class="section dottable_section" id="cranio" data-dottable-index="1">
 		
 			<div class="container  ">
@@ -42,8 +42,8 @@
 		<!-- ahora el triangulo esta afuera y es position static . Usarlas arriba y abajo de las secciones que queremos que tengan height diferente a 100% sin romper los separadores-->
 		<div class="invertedTriangle" style="position:static;"></div>
 		
-		<section class="section dottable_section " id="whatWeDo" data-dottable-index="2">
-			<div class="container myContainer">
+		<section class="section dottable_section hidden-xs hidden-sm" id="whatWeDo" data-dottable-index="2">
+			<div class="myContainer ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
 						<h2 class="black titles">WHAT WE DO</h2>
@@ -57,29 +57,29 @@
 						<h3 class="black HardSoftTitle" style="text-align:right;">Hardware</h2>
 						<p1 class="black HardSoftContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut.</p1>
 					</div>	
-					<div class="col-lg-4 col-md-4 col-xs-4 invisible hardwareIconsDiv onlyRow " id="hardwareIcons">
-						<div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 singleIconDiv" >
+					<div class="col-lg-4 col-md-4 col-xs-4 invisible hardwareIconsDiv onlyRow" id="hardwareIcons">
+						<div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 singleIconDiv" style="text-align: right;" >
 							<p1 class="iconsTitles inline" >DISEÑO  DE HARDWARE </p1>
 							<img class="iconImages img-responsive inline" src="images/diseño_hardware.png">
 
 						</div>
-						<div class="col-lg-10 col-md-10 singleIconDiv">
+						<div class="col-lg-10 col-md-10 singleIconDiv " style="text-align: right;">
 							<p1 class="iconsTitles inline">SISTEMAS EMBEBIDOS </p1>
 							<img class="iconImages img-responsive inline" src="images/sistemas_embebidos.png">
 						</div>
-						<div class="col-lg-offset-1 col-lg-11 col-md-offset-1 col-md-11 singleIconDiv">
+						<div class="col-lg-offset-1 col-lg-11 col-md-offset-1 col-md-11 singleIconDiv" style="text-align: right;">
 							<p1 class="iconsTitles inline">PROCESAMIENTO DE DATOS </p1>
 							<img class="iconImages img-responsive inline" src="images/procesamiento_datos.png">
 						</div>
 					</div>				
 					<div class="col-lg-4 col-md-4 col-xs-4 centered frame">
-						<img class="hsImage img-responsive" src="images/H-S.png">
+						<img class="hsImage img-responsive centered" src="images/H-S.png">
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-4 softwareDefinitionDiv" style="text-align:left;" id="softwareDef">
+					<div class="col-lg-4 col-md-4 col-xs-4 softwareDefinitionDiv " style="text-align:left;" id="softwareDef">
 						<h3 class="black HardSoftTitle" style="text-align:left;">Software</h2>
 						<p1 class="black HardSoftContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut.</p1>
 					</div>
-					<div class="col-lg-4 col-md-4 col-xs-4 invisible softwareIconsDiv onlyRow " id="softwareIcons">
+					<div class="col-lg-4 col-md-4 col-xs-4 invisible softwareIconsDiv onlyRow" id="softwareIcons">
 						<div class= "row onlyRow ">
 							<div class="col-lg-10 col-md-10 singleIconDiv ">
 								<img class="iconImages img-responsive inline"  src="images/aplicaciones_moviles.png">
@@ -98,10 +98,42 @@
 				
 				</div>
 			</div>
+		</section>
 
-			<div class="invertedTriangle"></div>
+
+		<section class="hidden-lg hidden-md" id="mobileWhatWeDo">
+			<div class="container">
+				<div class="row">
+					<div class="centered">
+						<h2 class="black titles">WHAT WE DO</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12 col-xs-12 centered">
+						<h2 class="black HardSoftTitle">HARDWARE</h2>
+						
+					</div>
+					<div class="centered col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8">
+						<p1 class="black HardSoftContent centered">Diseñamos herramientas físicas y tangibles indispensables para crear nuevas tecnologías.</p1>
+
+					</div>
+					<div class="centered col-sm-12 col-xs-12 ">
+						<img class="img-responsive mobilehsImage" src="images/H-S-mobile.png">
+					</div>
+					<div class="centered col-sm-12 col-xs-12 ">
+						<h2 class="black HardSoftTitle">SOFTWARE</h2>
+						
+					</div>
+					<div class="centered col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8">
+						<p1 class="black HardSoftContent centered">La inteligencia de los dispositivos tecnológicos se escribe en código y nosotros manejamos los lenguajes para poder crear esa inteligencia.</p1>
+
+					</div>
+				</div>
+			</div>
 
 		</section>
+
 		<!-- ahora el triangulo esta afuera y es position static -->
 		<div class="triangle" style="position:static;"></div>
 		
