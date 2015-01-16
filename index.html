@@ -45,8 +45,8 @@
 			<div class="myContainer ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
-						<h2 class="black titles">WHAT WE DO</h2>
-						<p1 class="black subTitles">Integramos de hardware, firmware y software, para brindar soluciones tecnológicas a medida.</p1>
+						<h2 class="black titles"  id="whatWeDoTitle" >WHAT WE DO</h2>
+						<p1 class="black subTitles"  id="whatWeDoSubtitle" >Integramos hardware, firmware y software, para brindar soluciones tecnológicas a medida.</p1>
 					</div>
 				</div>
 
@@ -104,7 +104,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="centered">
-						<h2 class="black titles">WHAT WE DO</h2>
+						<h2 class="black titles" >WHAT WE DO</h2>
 					</div>
 				</div>
 
@@ -213,27 +213,49 @@
 						<h2 class="white titles">THE TEAM</h2>
 						<p1 class=" white subTitles">Lorem ipsum dolor sit amet, consectetur. </p1>
 					</div>
+					<div class="col-lg-offset-1 col-lg-10 centered">
+						<h2 class="white subTitles" id="nameTeam"><br/> </h2>
+						<p1 class=" white text" id="whatHeDoTeam"> </p1>
+					</div>
 				</div>
 			</div>
 
 			<div  style="height: 50% bottom:0; display: inline;">
-				<div class="divsFotos" id="foto1">
-					<img class="img-responsive fotosTeam" src="images/bw_01.png">
+				<div class="divsFotos" id="foto1" data-names="PABLO" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_01.png">
+					<img class="img-responsive fotosTeam color" src="images/color_01.png">
 				</div>
-				<div class="divsFotos" id="foto2">
-					<img class="img-responsive fotosTeam" src="images/bw_01.png">
+				<div class="divsFotos" id="foto2" data-names="MARTIN" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_02.png">
+					<img class="img-responsive fotosTeam color" src="images/color_02.png">
 				</div>
-				<div class="divsFotos" id="foto3">
-					<img class="img-responsive fotosTeam" src="images/bw_01.png">
+				<div class="divsFotos" id="foto3" data-names="NAHUEL" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_03.png">
+					<img class="img-responsive fotosTeam color" src="images/color_03.png">
 				</div>
-				<div class="divsFotos" id="foto4">
-					<img class="img-responsive fotosTeam" src="images/bw_01.png">
+				<div class="divsFotos" id="foto4" data-names="PABLO" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_01.png">
+					<img class="img-responsive fotosTeam color" src="images/color_01.png">
 				</div>
-				<div class="divsFotos" id="foto5">
-					<img class="img-responsive fotosTeam" src="images/bw_01.png">
+				<div class="divsFotos" id="foto5" data-names="MARTIN" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_02.png">
+					<img class="img-responsive fotosTeam color" src="images/color_02.png">
 				</div>
-				<div class="divsFotos" id="foto6">
-					<img class="img-responsive fotosTeam" src="images/bw_01.png">
+				<div class="divsFotos" id="foto6" data-names="NAHUEL" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_03.png">
+					<img class="img-responsive fotosTeam color" src="images/color_03.png">
+				</div>
+				<div class="divsFotos" id="foto7" data-names="PABLO" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_01.png">
+					<img class="img-responsive fotosTeam color" src="images/color_01.png">
+				</div>
+				<div class="divsFotos" id="foto8" data-names="MARTIN" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_02.png">
+					<img class="img-responsive fotosTeam color" src="images/color_02.png">
+				</div>
+				<div class="divsFotos" id="foto9" data-names="NAHUEL" data-whathedo="Que hace">
+					<img class="img-responsive fotosTeam blackAndWhite" src="images/bw_03.png">
+					<img class="img-responsive fotosTeam color" src="images/color_03.png">
 				</div>
 				
 			</div>
@@ -251,8 +273,7 @@
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
-						<h2 class="black titles">LAST WORKS</h2>
-						<span class="visible-xs">SIZE XS</span><span class="visible-sm">SIZE SM</span><span class="visible-md">SIZE MD</span><span class="visible-lg">SIZE LG</span>
+						<h2 class="black titles">SOME WORKS</h2>
 						<p1 class=" black subTitles">Lorem ipsum dolor sit amet, consectetur. </p1>
 					</div>
 				</div>
@@ -385,13 +406,13 @@
 	     </div>
 	     <div class="modal-body" style="border:0;">
 	      	<div class="row centered">
-	      		<div class="col-lg-12 centered">
+	      		<div class="col-lg-offset-2 col-lg-8 centered">
 	      			<input type="text" class="areasModel" placeHolder="Name"/>
 	      		</div>
-	      		<div class="col-lg-12 centered">
+	      		<div class="col-lg-offset-2 col-lg-8 centered">
 	      			<input type="text" class="areasModel" placeHolder="Mail"/>
 	      		</div>
-	      		<div class="col-lg-12 centered">
+	      		<div class="col-lg-offset-2 col-lg-8 centered">
 	      			<input type="textarea" class="areasModel" placeHolder="Messagge"/>
 	      		</div>
 	      	</div>

@@ -76,7 +76,7 @@ section{
 
 .degrade{
     width: 100%!important;
-    height: 40%!important;
+    height: 20%!important;
     background-image: url('../images/degrade.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ section{
 }
 .lastWorksTriangle{
     width: 100%!important;
-    height: 25%!important;
+    height: 12.5%!important;
     background-image: url('../images/triangulo_blanco_invertido.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -172,13 +172,14 @@ section{
 }
 #lastWorks{
 	height: auto!important;
+    padding-top: 7%;
 	position: relative;
 }
 #haveAnIdea{
 
 	background-image: url('../images/foto_galletitas.jpg');
     background-repeat: no-repeat;
-  /* 	background-attachment: fixed;*/
+    /* 	background-attachment: fixed;*/
     background-position: center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -197,7 +198,7 @@ section{
     z-index: 400;
 }
 #googleMap{
-   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=15&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
+   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=14&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -455,6 +456,12 @@ section{
    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
+.myModalBody{
+    height: 250px;
+}
+.message{
+    height: 100px;
+}
 
 .fotosTeam{
     width:100%;
@@ -469,23 +476,35 @@ section{
     height: 60%;
     display: inline;
 }
+.color{
+    display: none;
+}
 
 #foto1{
-    left: 5%;
+    left: 2.5%;
 }
 #foto2{
-    left: 20%;
+    left: 12.5%;
 }
 #foto3{
-    left: 35%;
+    left: 22.5%;
 }
 #foto4{
-    left: 50%;
+    left: 32.5%;
 }
 #foto5{
-    left: 65%;
+    left: 42.5%;
 }
 #foto6{
-    left: 80%;
+    left: 52.5%;
+}
+#foto7{
+    left: 62.5%;
+}
+#foto8{
+    left: 72.5%;
+}
+#foto9{
+    left: 82.5%;
 }
 

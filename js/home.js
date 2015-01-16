@@ -16,6 +16,8 @@ $(document).ready(function(){
 						$('#softwareIcons').fadeIn(1500);
 						$('#hardwareIcons').removeClass( "invisible" );
 						$('#softwareIcons').removeClass( "invisible" );
+						document.getElementById("whatWeDoTitle").innerHTML = "HOW WE DO IT";
+						document.getElementById("whatWeDoSubtitle").innerHTML = "Aca va otra cosa";
 
 
 
@@ -35,6 +37,21 @@ $(document).ready(function(){
 		$(this).find(".informacion").hide();
 		$(this).find(".logo").show();
 	});
+	$( ".divsFotos" ).mouseenter( function(){
+		$(this).find(".blackAndWhite").hide();
+		$(this).find(".color").show();
+		$('#nameTeam').html($(this).data('names'));
+		$('#whatHeDoTeam').html($(this).data('whathedo'));
+	});
+
+	$( ".divsFotos" ).mouseleave( function(){
+		$(this).find(".color").hide();
+		$(this).find(".blackAndWhite").show();
+		document.getElementById("nameTeam").innerHTML = " ";
+		document.getElementById("whatHeDoTeam").innerHTML = " ";
+
+	});
+
 
 	$('#weAreHiringButton').css({
 		'margin-top': -(Math.floor($('#weAreHiringButton').outerHeight(true)*0.5)),
