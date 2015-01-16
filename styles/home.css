@@ -157,7 +157,7 @@ section{
 	background-color: white;
 	height: 15%!important;
 	position: relative;
-    z-index: 10000;
+    z-index: 400;
 }
 #googleMap{
    background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=15&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
