@@ -42,7 +42,6 @@ $(document).ready(function(){
 	});
 	$('.haveAnIdeaContent').css({
 		'margin-top': -(Math.floor($('.haveAnIdeaContent').outerHeight(true)*0.5))
-		// ,'margin-left': -(Math.floor($('.haveAnIdeaContent').outerWidth(true)*0.))
 	});
 
 });

@@ -149,6 +149,8 @@
 	}
 	#rowHaveAnIdea{padding-top: 15%;}
 	.frame{margin-top: 9%!important;}
+	.cranioRow{margin-top: 40%;
+}
 
 }
 @media (min-width: 1600px){ /*Para monitores de resolucion muy grande*/
