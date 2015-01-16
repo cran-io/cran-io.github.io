@@ -151,7 +151,15 @@
 	.frame{margin-top: 9%!important;}
 
 }
+@media (min-width: 1600px){ /*Para monitores de resolucion muy grande*/
+	#haveAnIdea h2{
+		font-size:70px!important;
+	}
+	#haveAnIdea p{
+		font-size:25px!important;
+	}
 
+}
 
 
 
