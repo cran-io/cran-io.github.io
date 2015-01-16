@@ -389,7 +389,17 @@ section{
   /*  left: 50%;*/
 
 }
+.areasModel{
+    background-color: grey;
+    text-align: left;
+    color: #25252D;
+    width: 100%;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
 
+}
 .myModalContent{
     background-color: #25252D;
     border: 1px solid white;
