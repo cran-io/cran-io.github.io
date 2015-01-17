@@ -91,13 +91,7 @@ section{
     position: absolute;
     bottom: 0px;
 }
-.intersectionLastWorks{
-/*    background-color: transparent;*/
-    position:static; 
-    top:0!important;
-    height: 25%!important;
 
-}
 .lastWorksTriangle{
     width: 100%!important;
     height: 12.5%!important;
@@ -168,7 +162,7 @@ section{
 }
 
 #whatWeDo{
-	height: 110%!important;
+	height: 100%!important;
 
 	position:relative;
 	
