@@ -211,7 +211,7 @@ section{
     z-index: 400;
 }
 #googleMap{
-   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=14&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
+   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=13&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
