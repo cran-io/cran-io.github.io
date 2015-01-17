@@ -6,6 +6,7 @@ html, body, section {
 }
 section{
 	position: relative;
+
 }
 
 .row{
@@ -158,15 +159,13 @@ section{
 .flag{
     float:left;
     width:50px;
-
 }
 
 #whatWeDo{
 	height: 100%!important;
-
 	position:relative;
-	
 }
+
 #mobileWhatWeDo{
     height: auto;   
 }
