@@ -137,7 +137,7 @@
     -o-background-size: cover;
     background-size: cover
 }
-	.divHaveAnIdea{
+.divHaveAnIdea{
 	background-image: url('../images/have_an_idea_small.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -148,10 +148,12 @@
     display: block;
   	max-width: 100%;
     max-height: 100%;
-  	height: 70%!important;
-  	margin-top: 15%;
+  	height: 90%!important;
+  	margin-top: 7.5%;
+  	margin-left: 0px;
+    margin-right: 0px;
 	}
-	#rowHaveAnIdea{padding-top: 15%;}
+	#rowHaveAnIdea{padding-top: 10%;}
 	.frame{margin-top: 9%!important;}
 	.cranioRow{margin-top: 40%;
 }
