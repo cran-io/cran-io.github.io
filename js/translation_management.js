@@ -1,11 +1,16 @@
 $(document).ready(function(){
-   set_texts("en");
+   var language = window.navigator.userLanguage || window.navigator.language;
+   if (language.substring(0,2) == "es")
+      set_language("es");
+   else
+      set_language("en");
+   
    $('.flag').click(function(){
-      set_texts($(this).data("language"));
+      set_language($(this).data("language"));
    });
 });
 
-function set_texts(language){
+function set_language(language){
    var t = translations[language];
    // index
    $('#slogan').html(t.slogan);
@@ -23,7 +28,6 @@ function set_texts(language){
       $(this).html(t.software_content);
    });
    
-
    $('.webServices').each(function(){
       $(this).html(t.web_services);
    });
