@@ -6,7 +6,11 @@ html, body, section {
 }
 section{
 	position: relative;
-    overflow:hidden!important;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .section{
@@ -18,7 +22,7 @@ section{
 
 .interSectionWeAreHiring{
     width: 100%!important;
-	height:30%;
+	height:15%;
 /*    padding-top: 6%;*/
 	background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +31,7 @@ section{
     -o-background-size: contain;
     background-size: contain;
     z-index: 100;
-    background-color: #25252D;
+    background-color: #75757D;
     display: block;
   	position: relative;
 
@@ -87,13 +91,7 @@ section{
     position: absolute;
     bottom: 0px;
 }
-.intersectionLastWorks{
-/*    background-color: transparent;*/
-    position:static; 
-    top:0!important;
-    height: 25%!important;
 
-}
 .lastWorksTriangle{
     width: 100%!important;
     height: 12.5%!important;
@@ -164,7 +162,7 @@ section{
 }
 
 #whatWeDo{
-	height: 110%!important;
+	height: 100%!important;
 
 	position:relative;
 	
@@ -179,7 +177,7 @@ section{
 
 #theTeam{
 	background-color: #25252D;
-	height: 100%!important;
+	height: 85%!important;
 	position: relative;
 
 }
@@ -199,9 +197,8 @@ section{
     -o-background-size: 100% 100%;
     background-size: 100% 100%;	
     display: block;
-  	max-width: 100%;
-  	height: 150%!important;	
-    padding-top: 12.5%;
+  	height: 100%!important;	
+    padding-top: 7.5%;
   	position: relative;
 }
 #location{
@@ -211,7 +208,7 @@ section{
     z-index: 400;
 }
 #googleMap{
-   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=14&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
+   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=13&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -244,6 +241,8 @@ section{
 }
 .cranioRow{
     margin-top: 10%;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 .divHaveAnIdea{
 	background-image: url('../images/have_an_idea.png');
@@ -256,8 +255,10 @@ section{
     display: block;
   	max-width: 100%;
     max-height: 100%;
-  	height: 90%!important;
+  	height: 85%!important;
     position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 #rowHaveAnIdea{
