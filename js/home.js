@@ -1,36 +1,10 @@
 $(document).ready(function(){
 	var flag = true;
 	$(window).scroll(function(){
-		if(flag && ($(window).scrollTop() >= ($('#whatWeDo').offset().top-($('#whatWeDo').offset().top/3)) && $(window).scrollTop() <= ($('#whatWeDo').offset().top+($('#whatWeDo').offset().top)/4))){
+		if(flag){
 			flag = false;
-			console.log(flag)
-			$('.hsImage').rotate({
-				easing: function (x,t,b,c,d){ 
-          			return c*(t/d)+b;
-      			},
-				angle : 0,
-				animateTo : 90,
-				duration: 2000,
-				callback : function(){
-					$('.hsImage').rotate({
-						angle : 90,
-						animateTo : 270,
-						duration: 600,
-						callback: function(){
-							console.log(e);
-						}
-				    });			
-					$('.hardwareDefinitionDiv,.softwareDefinitionDiv').fadeOut(800,function(){
-						$('#hardwareIcons').fadeIn(400);
-						$('#softwareIcons').fadeIn(400);
-						$('#hardwareIcons').removeClass( "invisible" );
-						$('#softwareIcons').removeClass( "invisible" );
-						document.getElementById("whatWeDoTitle").innerHTML = "HOW WE DO IT";
-						document.getElementById("whatWeDoSubtitle").innerHTML = "Aca va otra cosa";
-
-					});
-				}
-		    });
+			//console.log(flag);
+			basicTurn(0);
 		}
 	});
 	
@@ -69,3 +43,43 @@ $(document).ready(function(){
 	});
 
 });
+
+
+var basicTurn = function(x){
+	$('.hsImage').rotate({
+		angle : x,
+		animateTo : x+180,
+		easing : function (x,t,b,c,d){ 
+          			return c*(t/d)+b;
+      			}, 
+		duration: 2500,
+		callback : function(){
+			if(((x/180)%2)&&($(window).scrollTop() >= (($('#whatWeDo').offset().top)-($('#whatWeDo').offset().top/8)))){
+				lastTurn(x+180);
+				return;
+			}
+			else{
+				basicTurn(x+180);
+				return;
+			}
+		}
+    });
+}
+
+var lastTurn = function(x){
+	$('.hsImage').rotate({
+		angle : x,
+		animateTo : x+180,
+		easing : $.easing.easeOut,
+		duration: 2000,
+		callback : function(){}
+	});
+	$('.hardwareDefinitionDiv,.softwareDefinitionDiv').fadeOut(1000,function(){
+		$('#hardwareIcons').fadeIn(1000);
+		$('#softwareIcons').fadeIn(1000);
+		$('#hardwareIcons').removeClass( "invisible" );
+		$('#softwareIcons').removeClass( "invisible" );
+		document.getElementById("whatWeDoTitle").innerHTML = "HOW WE DO IT";
+		document.getElementById("whatWeDoSubtitle").innerHTML = "Aca va otra cosa";
+	});
+}
