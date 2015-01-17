@@ -101,11 +101,9 @@
 .locationTitle{
 	font-family: 'futuraHeavy', sans-serif;
 	font-size: 35px;
-	color: black;
 	overflow: visible;
 }
 .direction{
-	text-align: center;
 	font-family: 'helveticaNL', sans-serif;
 	font-size: 23px;
 	overflow: visible;
