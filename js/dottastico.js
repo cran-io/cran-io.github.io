@@ -5,15 +5,17 @@ $(document).ready(function(){
 });
 
 function set_dots(){
+	var dottastico_height = 0;
 	$('.dottable_section').each(function(index){
 		var offsetted_index = index + 1;
 		var shape = $('.dottastico').data("shape") || "circle";
 		var position = $('.dottastico').data("position") || "left";
 		$('.dottastico').addClass("dottastico-"+position);
-		$('.dottastico').append("<a href='javascript:void(0)' class='dot-link'><div class='dot "+shape+"' data-index="+offsetted_index+"></div></a><br>");	
+		$('.dottastico').append("<a href='javascript:void(0)' class='dot-link'><div class='dot "+shape+"' data-index="+offsetted_index+"></div></a>");	
+		dottastico_height = dottastico_height + (parseInt($('.dottastico').data("size").substring(0, $('.dottastico').data("size").length - 2))) + 15;
 	});
 	$('.dottastico').css({
-		'margin-top' : "-"+$('.dottastico').css("height")
+		'margin-top' : -dottastico_height/2
 	});
 	$('.dot').css({
 		"width" : $('.dottastico').data('size'),
@@ -46,7 +48,7 @@ function change_active_section_class(section){
 function get_current_section(current_pos, sections){
 	for(i = 0 ; i< sections.length ; i++){
 		if( sections[i+1]!= undefined ){
-			if( current_pos >= sections[i] && current_pos < sections[i+1] ) return i+1;
+			if( current_pos >= (sections[i] - sections[i]/5) && current_pos < (sections[i+1] - sections[i+1]/5) ) return i+1;
 		} else{
 			return i+1;
 		}
