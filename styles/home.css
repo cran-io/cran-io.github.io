@@ -18,7 +18,7 @@ section{
 
 .interSectionWeAreHiring{
     width: 100%!important;
-	height:30%;
+	height:15%;
 /*    padding-top: 6%;*/
 	background-repeat: no-repeat;
     background-position: center;
@@ -179,7 +179,7 @@ section{
 
 #theTeam{
 	background-color: #25252D;
-	height: 100%!important;
+	height: 85%!important;
 	position: relative;
 
 }
