@@ -446,16 +446,18 @@ section{
     background-color: grey;
     text-align: left;
     color: #25252D;
+    margin-top: 16px;
     width: 100%;
     border-left: 0;
     border-top: 0;
     border-right: 0;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
 
 }
 .myModalContent{
     background-color: #25252D;
     border: 1px solid white;
+    height: auto;
     border-radius:0; 
     color:white;
     position: relative;
@@ -470,7 +472,7 @@ section{
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 .myModalBody{
-    height: 250px;
+    height: 300px;
 }
 .message{
     height: 100px;
