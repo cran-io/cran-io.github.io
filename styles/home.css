@@ -6,7 +6,11 @@ html, body, section {
 }
 section{
 	position: relative;
-    overflow:hidden!important;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .section{
@@ -203,6 +207,8 @@ section{
   	height: 100%!important;	
     padding-top: 7.5%;
   	position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 #location{
 	background-color: white;
