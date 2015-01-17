@@ -1,25 +1,32 @@
 $(document).ready(function(){
 	var flag = true;
 	$(window).scroll(function(){
-		if(flag && ($(window).scrollTop() >= ($('#whatWeDo').offset().top-($('#whatWeDo').offset().top/8)) && $(window).scrollTop() <= ($('#whatWeDo').offset().top+($('#whatWeDo').offset().top)/4))){
+		if(flag && ($(window).scrollTop() >= ($('#whatWeDo').offset().top-($('#whatWeDo').offset().top/3)) && $(window).scrollTop() <= ($('#whatWeDo').offset().top+($('#whatWeDo').offset().top)/4))){
 			flag = false;
 			console.log(flag)
 			$('.hsImage').rotate({
+				easing: function (x,t,b,c,d){ 
+          			return c*(t/d)+b;
+      			},
 				angle : 0,
-				animateTo : 180,
-				easing : $.easing.easeInOut, 
-				duration: 1500,
+				animateTo : 90,
+				duration: 2000,
 				callback : function(){
-
+					$('.hsImage').rotate({
+						angle : 90,
+						animateTo : 270,
+						duration: 600,
+						callback: function(){
+							console.log(e);
+						}
+				    });			
 					$('.hardwareDefinitionDiv,.softwareDefinitionDiv').fadeOut(800,function(){
-						$('#hardwareIcons').fadeIn(1500);
-						$('#softwareIcons').fadeIn(1500);
+						$('#hardwareIcons').fadeIn(400);
+						$('#softwareIcons').fadeIn(400);
 						$('#hardwareIcons').removeClass( "invisible" );
 						$('#softwareIcons').removeClass( "invisible" );
 						document.getElementById("whatWeDoTitle").innerHTML = "HOW WE DO IT";
 						document.getElementById("whatWeDoSubtitle").innerHTML = "Aca va otra cosa";
-
-
 
 					});
 				}
