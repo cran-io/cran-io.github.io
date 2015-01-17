@@ -150,6 +150,19 @@ section{
     height: 100%!important;
     position: relative;
 }
+
+.flags{
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+.flag{
+    float:left;
+    width:50px;
+
+}
+
 #whatWeDo{
 	height: 110%!important;
 

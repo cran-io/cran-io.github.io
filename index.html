@@ -4,8 +4,12 @@
 		<title>CRAN.IO | Hardware & Software Development</title>
 		<meta charset="UTF-8"> <!--Encoding -->
 		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Movile first -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!--JQuery de Google -->
-		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> <!--JQuery de Google -->
+		<script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/translation.js"></script>
+		<script type="text/javascript" src="js/translation_management.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles/bootstrap-theme.css">		
 		<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="styles/home.css">	
@@ -14,13 +18,14 @@
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><!--API de Google Maps -->
 		<script src="js/home.js"></script>
 		<script src="js/dottastico.js"></script>
-		<script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
-		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	</head>
 	<body>
 	 <div class="dottastico hidden-xs hidden-sm" data-shape="circle" data-time="1600" data-size="17px" data-color="#B0B3B6" data-position="left"></div>
 	 <section class="section dottable_section" id="cranio" data-dottable-index="1">
-		
+			<div class="flags">
+				<div class="flag" data-language="es"><a href="#"><img src="images/es.jpg" class="img-responsive"></div></a>
+				<div class="flag" data-language="en"><a href="#"><img src="images/en.jpg" class="img-responsive"></div></a>
+			</div>
 			<div class="container  ">
 				<div class="row cranioRow">
 					<div class="col-lg-offset-2 col-lg-8 centered ">
@@ -28,7 +33,7 @@
 					</div>
 					<div class="row ">
 						<div class="col-lg-offset-3 col-lg-6 col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10 centered">
-							<p class= "slogan">Lorem ipsum dolor sit amet, 
+							<p id="slogan" class= "slogan">Lorem ipsum dolor sit amet, 
 							   consectetur adipiscing elit</p>
 						</div>
 					</div>
@@ -45,27 +50,27 @@
 			<div class="myContainer ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
-						<h2 class="black titles"  id="whatWeDoTitle" >WHAT WE DO</h2>
-						<p1 class="black subTitles"  id="whatWeDoSubtitle" >Integramos hardware, firmware y software, para brindar soluciones tecnológicas a medida.</p1>
+						<h2 class="black titles whatWeDoTitle" >WHAT WE DO</h2>
+						<p class="black subTitles whatWeDoSubtitle" >Integramos hardware, firmware y software, para brindar soluciones tecnológicas a medida.</p>
 					</div>
 				</div>
 
 				<div class="row hardAndSoftRow " style="margin-top: 20px;">
 					<div class="col-lg-4 col-md-4 col-xs-4  hardwareDefinitionDiv" style="text-align:right;" id="hardwareDef">
 						<h3 class="black HardSoftTitle" style="text-align:right;">Hardware</h2>
-						<p1 class="black HardSoftContent">La posibilidad de crear algo físico y tangible que sea un poderoso soporte electrónico para nuevas tecnologías.</p1>
+						<p class="black HardSoftContent hardwareDescription">La posibilidad de crear algo físico y tangible que sea un poderoso soporte electrónico para nuevas tecnologías.</p>
 					</div>	
 					<div class="col-lg-4 col-md-4 col-xs-4 invisible hardwareIconsDiv onlyRow" id="hardwareIcons">
 						<div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 singleIconDiv" style="text-align: right;" >
-								<p1 class="iconsTitles inline" style="display: inline;">APLICACIONES MÓVILES </p1>
+								<p class="iconsTitles inline mobileApps" style="display: inline;">APLICACIONES MÓVILES </p>
 								<img class="iconImages img-responsive inline"  src="images/aplicaciones_moviles.png">
 						</div>
 						<div class="col-lg-10 col-md-10 singleIconDiv " style="text-align: right;">
-								<p1 class="iconsTitles inline">SERVICIOS WEB </p1>
+								<p class="iconsTitles inline webServices">SERVICIOS WEB </p>
 								<img class="iconImages img-responsive inline"  src="images/servicios_web.png">
 						</div>
 						<div class="col-lg-offset-1 col-lg-11 col-md-offset-1 col-md-11 singleIconDiv" style="text-align: right;">
-							<p1 class="iconsTitles inline">PROCESAMIENTO DE DATOS </p1>
+							<p class="iconsTitles inline dataProcessing">PROCESAMIENTO DE DATOS </p>
 							<img class="iconImages img-responsive inline" src="images/procesamiento_datos.png">
 						</div>
 					</div>				
@@ -74,23 +79,23 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-xs-4 softwareDefinitionDiv " style="text-align:left;" id="softwareDef">
 						<h3 class="black HardSoftTitle" style="text-align:left;">Software</h2>
-						<p1 class="black HardSoftContent">La inteligencia de los dispositivos tecnológicos se escribe en código y nosotros manejamos los lenguajes para poder crear esa inteligencia.</p1>
+						<p class="black HardSoftContent softwareDescription">La inteligencia de los dispositivos tecnológicos se escribe en código y nosotros manejamos los lenguajes para poder crear esa inteligencia.</p>
 					</div>
 					<div class="col-lg-4 col-md-4 col-xs-4 invisible softwareIconsDiv onlyRow" id="softwareIcons">
 						<div class= "row onlyRow ">
 							<div class="col-lg-10 col-md-10 singleIconDiv ">
 								<img class="iconImages img-responsive inline" src="images/diseño_hardware.png">
-								<p1 class="iconsTitles inline" >DISEÑO  DE HARDWARE </p1>
+								<p class="iconsTitles inline hardwareDesign">DISEÑO DE HARDWARE </p>
 								
 							</div>
 							<div class="col-lg-offset-2 col-lg-10 col-md-offset-2 col-md-10 singleIconDiv">
 								<img class="iconImages img-responsive inline" src="images/sistemas_embebidos.png">
-								<p1 class="iconsTitles inline">SISTEMAS EMBEBIDOS </p1>
+								<p class="iconsTitles inline embeddedSystems">SISTEMAS EMBEBIDOS </p>
 								
 							</div>
 							<div class="col-lg-12 col-md-12 singleIconDiv">
 								<img class="iconImages img-responsive inline" src="images/procesamiento_señales.png">
-								<p1 class="iconsTitles inline">PROCESAMIENTO DE SEÑALES </p1>
+								<p class="iconsTitles inline signalProcessing">PROCESAMIENTO DE SEÑALES </p>
 							</div>
 						</div>
 					</div>	
@@ -104,7 +109,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="centered">
-						<h2 class="black titles" >WHAT WE DO</h2>
+						<h2 class="black titles whatWeDoTitle" >WHAT WE DO</h2>
 					</div>
 				</div>
 
@@ -114,7 +119,7 @@
 						
 					</div>
 					<div class="centered col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8">
-						<p1 class="black HardSoftContent centered">Diseñamos herramientas físicas y tangibles indispensables para crear nuevas tecnologías.</p1>
+						<p class="black HardSoftContent centered hardwareDescription">Diseñamos herramientas físicas y tangibles indispensables para crear nuevas tecnologías.</p>
 
 					</div>
 					<div class="centered col-sm-12 col-xs-12 ">
@@ -125,7 +130,7 @@
 						
 					</div>
 					<div class="centered col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8">
-						<p1 class="black HardSoftContent centered">La inteligencia de los dispositivos tecnológicos se escribe en código y nosotros manejamos los lenguajes para poder crear esa inteligencia.</p1>
+						<p class="black HardSoftContent centered softwareDescription">La inteligencia de los dispositivos tecnológicos se escribe en código y nosotros manejamos los lenguajes para poder crear esa inteligencia.</p>
 
 					</div>
 				</div>
@@ -136,8 +141,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="centered">
-						<h2 class="black titles"><br/>TECHNOLOGY</h2>
-						<p1 class="black subTitles">We know how to use it<br/><br/></p1>
+						<h2 class="black titles technology"><br/>TECHNOLOGY</h2>
+						<p class="black subTitles technologyDescription">We know how to use it<br/><br/></p>
 					</div>
 				</div>
 
@@ -146,8 +151,8 @@
 						<img class="img-responsive mobileWebIcon" src="images/mobile_diseño_hardware.png">
 					</div>
 					<div class="centered col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-						<h2 class="black HardSoftTitle">DISEÑO DE HARDWARE</h2>
-						<p1 class="black HardSoftContent centered">El diseño de placas electrónicas no sólo es ciencia. Es arte.</p1>
+						<h2 class="black HardSoftTitle hardwareDesign">DISEÑO DE HARDWARE</h2>
+						<p class="black HardSoftContent centered hardwareDesignDescription">El diseño de placas electrónicas no sólo es ciencia. Es arte.</p>
 					</div>
 				</div>
 
@@ -156,8 +161,8 @@
 						<img class="img-responsive mobileWebIcon" src="images/mobile_aplicaciones_movil.png">
 					</div>
 					<div class="centered col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-						<h2 class="black HardSoftTitle">APLICACIONES MÓVILES</h2>
-						<p1 class="black HardSoftContent centered">Para ser exitoso, su negocio tiene que llegar a las plataformas móviles. Nosotros lo llevaremos.</p1>
+						<h2 class="black HardSoftTitle mobileApps">APLICACIONES MÓVILES</h2>
+						<p class="black HardSoftContent centered mobileAppsDescription">Para ser exitoso, su negocio tiene que llegar a las plataformas móviles. Nosotros lo llevaremos.</p>
 					</div>
 				</div>
 
@@ -166,8 +171,8 @@
 						<img class="img-responsive mobileWebIcon" src="images/mobile_servicios_web.png">
 					</div>
 					<div class="centered col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-						<h2 class="black HardSoftTitle">SERVICIOS WEB</h2>
-						<p1 class="black HardSoftContent centered">La nube es conectividad junto a un increíble poder de procesamiento y almacenamiento.</p1>
+						<h2 class="black HardSoftTitle webServices">SERVICIOS WEB</h2>
+						<p class="black HardSoftContent centered webServicesDescription">La nube es conectividad junto a un increíble poder de procesamiento y almacenamiento.</p>
 					</div>
 				</div>
 
@@ -176,8 +181,8 @@
 						<img class="img-responsive mobileWebIcon" src="images/mobile_procesamiento_datos.png">
 					</div>
 					<div class="centered col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-						<h2 class="black HardSoftTitle">PROCESAMIENTO DE DATOS</h2>
-						<p1 class="black HardSoftContent centered">Sabemos cómo almacenar y modelar relaciones para obtener información valiosa de grandes bases de datos.</p1>
+						<h2 class="black HardSoftTitle dataProcessing">PROCESAMIENTO DE DATOS</h2>
+						<p class="black HardSoftContent centered dataProcessingDescription">Sabemos cómo almacenar y modelar relaciones para obtener información valiosa de grandes bases de datos.</p>
 					</div>
 				</div>
 
@@ -186,8 +191,8 @@
 						<img class="img-responsive mobileWebIcon" src="images/mobile_sistemas_embebidos.png">
 					</div>
 					<div class="centered col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-						<h2 class="black HardSoftTitle">SISTEMAS EMBEBIDOS</h2>
-						<p1 class="black HardSoftContent centered">Somos amantes de las micro computadoras tanto para prototipado rapido como para el desarrollo de productos.</p1>
+						<h2 class="black HardSoftTitle embeddedSystems">SISTEMAS EMBEBIDOS</h2>
+						<p class="black HardSoftContent centered embeddedSystemsDescription">Somos amantes de las micro computadoras tanto para prototipado rapido como para el desarrollo de productos.</p>
 					</div>
 				</div>
 
@@ -196,8 +201,8 @@
 						<img class="img-responsive mobileWebIcon" src="images/mobile_procesamiento_señales.png">
 					</div>
 					<div class="centered col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-						<h2 class="black HardSoftTitle">PROCESAMIENTO DE SEÑALES</h2>
-						<p1 class="black HardSoftContent centered">Las señales abundan y nos rodean. La creación de sistemas que las utilicen no tienen límites.</p1>
+						<h2 class="black HardSoftTitle signalProcessing">PROCESAMIENTO DE SEÑALES</h2>
+						<p class="black HardSoftContent centered signalProcessingDescription">Las señales abundan y nos rodean. La creación de sistemas que las utilicen no tienen límites.</p>
 					</div>
 				</div>
 			</div>
@@ -210,12 +215,12 @@
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
-						<h2 class="white titles">THE TEAM</h2>
-						<p1 class=" white subTitles">Lorem ipsum dolor sit amet, consectetur. </p1>
+						<h2 class="white titles theTeam">THE TEAM</h2>
+						<p class=" white subTitles theTeamDescription">Lorem ipsum dolor sit amet, consectetur. </p>
 					</div>
 					<div class="col-lg-offset-1 col-lg-10 centered">
 						<h2 class="white subTitles" id="nameTeam"><br/> </h2>
-						<p1 class=" white text" id="whatHeDoTeam"> </p1>
+						<p class=" white text" id="whatHeDoTeam"> </p>
 					</div>
 				</div>
 			</div>
@@ -273,8 +278,8 @@
 			<div class="container ">
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-10 centered">
-						<h2 class="black titles">SOME WORKS</h2>
-						<p1 class=" black subTitles">Lorem ipsum dolor sit amet, consectetur. </p1>
+						<h2 class="black titles" id="latestProjects">SOME WORKS</h2>
+						<p class=" black subTitles" id="latestProjectsDescription">Lorem ipsum dolor sit amet, consectetur. </p>
 					</div>
 				</div>
 				<div class="row" style="padding-bottom:5%; padding-top: 2%;">
@@ -326,16 +331,16 @@
 					<div class="col-lg-6 col-xs-12  col-md-6 col-sm-12 divHaveAnIdea">
 						<div class="row haveAnIdeaContent" id="haveAnIdeaContent" >
 							<div class=" col-lg-offset-2 col-lg-8 col-xs-offset-2 col-xs-8 centered">
-								<h2 class= "white textTitle">HAVE AN IDEA?<br/></h2>
+								<h2 class= "white textTitle haveAnIdeaTitle">HAVE AN IDEA?<br/></h2>
 							</div>
 							<div class="col-lg-offset-2 col-lg-8 col-xs-offset-2 col-xs-8 centered">
-								<p class= "white text"> Come and sit with us in the table, we have cookies, coffee and lots of ideas too.<br/></p>
+								<p class= "white text haveAnIdeaFP"> Come and sit with us in the table, we have cookies, coffee and lots of ideas too.</p><br/>
 							</div>
 							<div class="col-lg-offset-2 col-lg-8 col-xs-offset-2 col-xs-8 centered">
-								<p class="white boldText"> We can help your idea come true<br/><br/></p>
+								<p class="white boldText haveAnIdeaSP"> We can help your idea come true</p><br/><br/>
 							</div>
 							<div class="col-lg-offset-2 col-lg-8 col-xs-offset-2 col-xs-8 centered">
-								<button class="buttons" type="button" data-toggle="modal" data-target="#myModal" >MAIL US</button>
+								<button id="mailUs" class="buttons" type="button" data-toggle="modal" data-target="#myModal" >MAIL US</button>
 							</div>
 							
 							</div>
@@ -347,15 +352,15 @@
 		</section>
 
 		<section class="section dottable_section" id="location" data-dottable-index="6">
-			<div class="myContainer ">
+			<div class="myContainer">
 				<div class="row">
 					<div class=" col-lg-offset-1 col-lg-11 col-md-offset-1 col-md-11 col-xs-offset-1 col-xs-10" style=" overflow: visible; z-index:100000;"> 
-						<p1 class= "black locationTitle">LOCATION</p1>
+						<p class= "black locationTitle">LOCATION</p>
 						</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-offset-1 col-lg-11 col-md-offset-1 col-md-11 col-xs-offset-1 col-xs-12 "> 
-						<p1 class= "black direction">Uriarte 1882, Buenos Aires, Argentina</p1>
+						<p class= "black direction">Uriarte 1882, Buenos Aires, Argentina</p>
 					</div>
 				</div>
 			</div>
