@@ -32,7 +32,8 @@ section{
     -o-background-size: contain;
     background-size: contain;
     z-index: 100;
-    background-color: #75757D;
+/*    background-color: #75757D;*/
+    background-color: #25252D;
     display: block;
   	position: relative;
 
@@ -171,11 +172,16 @@ section{
 }
 
 #mobileTechnology{
-    height: auto;   
+    height: auto;  
+    background-color: #25252D; 
 }
 
+#technology{ 
+    background-color: #25252D; 
+    height: 115%; 
+    padding-top: 60px; 
+}
 #theTeam{
-	background-color: #25252D;
 	height: 85%!important;
 	position: relative;
 
@@ -189,7 +195,6 @@ section{
 
 	background-image: url('../images/foto_galletitas.jpg');
     background-repeat: no-repeat;
-    /* 	background-attachment: fixed;*/
     background-position: center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -273,21 +278,14 @@ section{
 /*    margin-top:200px!important;*/
     margin-top: 18%!important;
 }
-.softwareIconsDiv{
-/*    height: 70%!important;*/
-  /*  min-height: 100%!important;*/
-    
-}
+
 .hardwareIconsDiv{
     height: 100%!important;
     min-height: 100%!important;
     
 }
 .singleIconDiv{
-    
-   /* min-height: 60px;
-    padding: 29px;
-    margin-bottom: 60px;*/
+
     height: 35%!important;
     display: inline;
     overflow: visible;
@@ -418,13 +416,18 @@ section{
     margin-left: auto;
     margin-right: auto;
 }
+.webIcon{
+    height: 100px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
 .worksImages{
     width: 95%!important;
     margin-left: auto;
     margin-right: auto;
 }
-.worksDiv{
-    margin-bottom: 15%;
+.workDiv{
+    margin-bottom: 40px;
 }
 .informacion{
     display: none;
@@ -494,6 +497,9 @@ section{
 .color{
     display: none;
 }
+.iconRow{
+    margin-top: 60px;
+}
 
 #foto1{
     left: 2.5%;
@@ -522,4 +528,5 @@ section{
 #foto9{
     left: 82.5%;
 }
+
 
