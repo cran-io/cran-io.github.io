@@ -65,7 +65,33 @@ section{
     top: 0px;
     
 }
-
+.flipTriangle{
+    width: 100%!important;
+    height: 25%!important;
+    background-image: url('../images/flip-tr1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.flipInvertedTriangle{
+    width: 100%!important;
+    height: 25%!important;
+    background-image: url('../images/flip-tr2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    
+}
 .whiteTriangle{
 	width: 100%!important;
 	height: 12.5%!important;
