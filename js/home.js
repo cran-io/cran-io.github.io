@@ -3,7 +3,6 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if(flag){
 			flag = false;
-			//console.log(flag);
 			basicTurn(0);
 		}
 	});
@@ -42,6 +41,8 @@ $(document).ready(function(){
 		'margin-top': -(Math.floor($('.haveAnIdeaContent').outerHeight(true)*0.5))
 	});
 
+	
+
 });
 
 
@@ -76,3 +77,5 @@ var lastTurn = function(x){
 	});
 	
 }
+
+

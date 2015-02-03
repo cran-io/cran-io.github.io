@@ -189,7 +189,7 @@ section{
 }
 
 #whatWeDo{
-	height: 100%!important;
+	height: 100%;
 	position:relative;
 }
 
@@ -212,6 +212,12 @@ section{
 	position: relative;
 
 }
+#mobileTheTeam{
+    height: auto;
+    position: relative;
+    padding: 10%;
+
+}
 #lastWorks{
 	height: auto!important;
     padding-top: 7%;
@@ -228,8 +234,12 @@ section{
     background-size: 100% 100%;	
     display: block;
   	height: 100%!important;	
-    padding-top: 7.5%;
+    padding-top: 8.5%;
+    padding-bottom: 8.5%;
   	position: relative;
+}
+.rowHaveAnIdea{
+    padding-top: 5%;
 }
 #location{
 	background-color: white;
@@ -260,7 +270,7 @@ section{
 }
 #icons{
 	background-color: #25252D;
-	height: 15%!important;
+	height: 10%!important;
 	position: relative;
     padding-bottom: 3px;
 }
@@ -285,15 +295,10 @@ section{
     display: block;
   	max-width: 100%;
     max-height: 100%;
-  	height: 85%!important;
+  	height: 100%!important;
     position: relative;
     margin-left: -15px;
     margin-right: -15px;
-}
-
-#rowHaveAnIdea{
-    padding-top: 5%;
-     
 }
 
 .hardwareDefinitionDiv{
@@ -301,8 +306,7 @@ section{
 }
 
 .softwareDefinitionDiv{
-/*    margin-top:200px!important;*/
-    margin-top: 18%!important;
+    margin-top: 18%;
 }
 
 .hardwareIconsDiv{
@@ -351,7 +355,7 @@ section{
 .iconTwitter{
     background-image: url('../images/twitter_icon.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -360,7 +364,7 @@ section{
 .iconFacebook{
     background-image: url('../images/facebook_icon.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -369,7 +373,7 @@ section{
 .iconGitHub{
     background-image: url('../images/github_icon.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -378,7 +382,7 @@ section{
 .iconMail{
     background-image: url('../images/mail_icon.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -387,7 +391,7 @@ section{
 .iconLinkedin{
     background-image: url('../images/linkedin_icon.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -426,6 +430,12 @@ section{
     margin-right: auto;
     margin-top: 30px;
 }
+.softwareDiv{
+    text-align:left;
+}
+.hardwareDiv{
+    text-align:right;
+}
 
 .frame{
     overflow: visible;
@@ -433,6 +443,7 @@ section{
 .invisible{
     display: none;
 }
+
 .inline{
     display: inline;
 }
@@ -531,28 +542,31 @@ section{
     left: 2.5%;
 }
 #foto2{
-    left: 12.5%;
+    left: 11.5%;
 }
 #foto3{
-    left: 22.5%;
+    left: 20.5%;
 }
 #foto4{
-    left: 32.5%;
+    left: 29.5%;
 }
 #foto5{
-    left: 42.5%;
+    left: 38.5%;
 }
 #foto6{
-    left: 52.5%;
+    left: 47.5%;
 }
 #foto7{
-    left: 62.5%;
+    left: 56.5%;
 }
 #foto8{
-    left: 72.5%;
+    left: 65.5%;
 }
 #foto9{
-    left: 82.5%;
+    left: 74.5%;
+}
+#foto10{
+    left: 83.5%;
 }
 
 
