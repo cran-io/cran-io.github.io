@@ -1,0 +1,99 @@
+html, body, section {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+	position: relative;
+
+}
+
+.section{
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#cranio{
+	background-image: url('../images/cranio.jpg');
+	background-repeat: no-repeat;
+   	background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+    background-color: red;
+    height: 100%!important;
+    position: relative;
+}
+
+#whatWeDo{
+	height: 100%;
+	position:relative;
+}
+
+#technology{ 
+    background-color: #25252D; 
+    height: 115%; 
+    padding-top: 60px; 
+}
+
+#theTeam{
+	height: 85%!important;
+	position: relative;
+
+}
+/*#mobileTheTeam{
+    height: auto;
+    position: relative;
+    padding: 10%;
+
+}*/
+#lastWorks{
+	height: auto!important;
+    padding-top: 7%;
+	position: relative;
+}
+#haveAnIdea{
+
+	background-image: url('../images/foto_galletitas.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;	
+    display: block;
+  	height: 100%!important;	
+    padding-top: 8.5%;
+    padding-bottom: 8.5%;
+  	position: relative;
+}
+
+#location{
+	background-color: white;
+	height: 15%!important;
+	position: relative;
+    z-index: 400;
+}
+#googleMap{
+   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=13&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: grey; 
+    height: 70%!important; 
+    display: block;
+    max-width: 100%;
+	position: relative;
+    margin: 0;
+    padding: 0;
+}

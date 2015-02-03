@@ -1,182 +1,36 @@
-html, body, section {
-	height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-section{
-	position: relative;
 
-}
-
+/*GENERAL*/
 .row{
     margin-left: 0px;
     margin-right: 0px;
 }
 
-.section{
-	height: 100%;
+.myContainer {
+    height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
-.interSectionWeAreHiring{
-    width: 100%!important;
-	height:15%;
-/*    padding-top: 6%;*/
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    z-index: 100;
-/*    background-color: #75757D;*/
-    background-color: #25252D;
-    display: block;
-  	position: relative;
+.centered{
+    color: #000000;
+    text-align: center;
+}
+.black{
+    color: #000000;
+}
+.white{
+    color: #ffffff
+}
+.onlyRow{
+    height:100%!important;
 
 }
-.triangle{
-	width: 100%!important;
-	height: 25%!important;
-	background-image: url('../images/tr1.png');
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0px;
-}
-.invertedTriangle{
-	width: 100%!important;
-	height: 25%!important;
-	background-image: url('../images/tr2.png');
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    top: 0px;
-    
-}
-.flipTriangle{
-    width: 100%!important;
-    height: 25%!important;
-    background-image: url('../images/flip-tr1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0px;
-}
-.flipInvertedTriangle{
-    width: 100%!important;
-    height: 25%!important;
-    background-image: url('../images/flip-tr2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    top: 0px;
-    
-}
-.whiteTriangle{
-	width: 100%!important;
-	height: 12.5%!important;
-	background-image: url('../images/triangulo_blanco.png');
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0px;
-}
 
-.degrade{
-    width: 100%!important;
-    height: 20%!important;
-    background-image: url('../images/degrade.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0px;
-}
+/*.invisible{
+    display: none;
+}*/
 
-.lastWorksTriangle{
-    width: 100%!important;
-    height: 12.5%!important;
-    background-image: url('../images/triangulo_blanco_invertido.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    top: 0px;
-}
 
-.invertedWhiteTriangle{
-	width: 100%!important;
-	height: 25%!important;
-	background-image: url('../images/triangulo_blanco_invertido.png');
-	background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    top: 0px;
-    
-}
-.locationTriangle{
-    width: 100%!important;
-    height: 17.5%!important;
-    background-image: url('../images/triangulo_blanco.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0px;
-    
-}
-
-#cranio{
-	background-image: url('../images/cranio.jpg');
-	background-repeat: no-repeat;
-   	background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;	
-    background-color: red;
-    height: 100%!important;
-    position: relative;
-}
-
+/*CRANIO SECTION*/
 .flags{
     position:absolute;
     top:5px;
@@ -188,102 +42,18 @@ section{
     width:50px;
 }
 
-#whatWeDo{
-	height: 100%;
-	position:relative;
-}
-
-#mobileWhatWeDo{
-    height: auto;   
-}
-
-#mobileTechnology{
-    height: auto;  
-    background-color: #25252D; 
-}
-
-#technology{ 
-    background-color: #25252D; 
-    height: 115%; 
-    padding-top: 60px; 
-}
-#theTeam{
-	height: 85%!important;
-	position: relative;
-
-}
-#mobileTheTeam{
-    height: auto;
-    position: relative;
-    padding: 10%;
-
-}
-#lastWorks{
-	height: auto!important;
-    padding-top: 7%;
-	position: relative;
-}
-#haveAnIdea{
-
-	background-image: url('../images/foto_galletitas.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;	
-    display: block;
-  	height: 100%!important;	
-    padding-top: 8.5%;
-    padding-bottom: 8.5%;
-  	position: relative;
-}
-.rowHaveAnIdea{
-    padding-top: 5%;
-}
-#location{
-	background-color: white;
-	height: 15%!important;
-	position: relative;
-    z-index: 400;
-}
-#googleMap{
-   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=13&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: grey; 
-    height: 70%!important; 
-    display: block;
-    max-width: 100%;
-	position: relative;
-    margin: 0;
-    padding: 0;
-}
-.imagenGoogleMap{
-    height: 100%;
-    width:100%;
-}
-#icons{
-	background-color: #25252D;
-	height: 10%!important;
-	position: relative;
-    padding-bottom: 3px;
-}
-
-.myContainer {
-    height: 100%;
-    width: 100%;
-}
 .cranioRow{
     margin-top: 10%;
     margin-left: -15px;
     margin-right: -15px;
 }
+
+/*HAVE AN IDEA SECTION*/
+
+.rowHaveAnIdea{
+    padding-top: 5%;
+}
+
 .divHaveAnIdea{
 	background-image: url('../images/have_an_idea.png');
     background-repeat: no-repeat;
@@ -301,6 +71,17 @@ section{
     margin-right: -15px;
 }
 
+.haveAnIdeaContent{
+    position: absolute;
+    width: auto; 
+    height: auto;
+    top: 50%;
+  /*  left: 50%;*/
+
+}
+
+/*WHAT WE DO SECTION*/
+
 .hardwareDefinitionDiv{
     margin-top: 2%!important;
 }
@@ -309,12 +90,45 @@ section{
     margin-top: 18%;
 }
 
-.hardwareIconsDiv{
+.hardAndSoftRow{
+    margin-top: 15%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+/*    min-height: 70%;
+    max-height: 100%;*/
+}
+.hsImage{
+    vertical-align: middle;
+    width: 80%
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobilehsImage{
+    vertical-align: middle;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.softwareDiv{
+    text-align:left;
+}
+.hardwareDiv{
+    text-align:right;
+}
+
+.frame{
+    overflow: visible;
+}
+
+/*.hardwareIconsDiv{
     height: 100%!important;
     min-height: 100%!important;
     
 }
-.singleIconDiv{
+*/
+/*.singleIconDiv{
 
     height: 35%!important;
     display: inline;
@@ -323,14 +137,102 @@ section{
 .iconImages{
     height: 70px;
 }
-.onlyRow{
-	height:100%!important;
 
-}
-.miniSize{
-	font-size: 100%;
+*/
+
+/*.mobileWebIcon{
+    height: 120px!important;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*TECHNOLOGY SECTION*/
+
+.webIcon{
+    height: 100px!important;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/*LAST WORKS SECTION*/
+.worksImages{
+    width: 95%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.workDiv{
+    margin-bottom: 40px;
+}
+.informacion{
+    display: none;
+}
+
+/*WE ARE HIRING INTERSECTION*/
+#weAreHiringButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/*THE TEAM SECTION*/
+.fotosTeam{
+    width:100%;
+    display: inline;
+    bottom: 0;
+    position: absolute;
+}
+.divsFotos{
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    height: 60%;
+    display: inline;
+}
+.color{
+    display: none;
+}
+.iconRow{
+    margin-top: 60px;
+}
+.inline{
+    display: inline;
+}
+
+#foto1{
+    left: 2.5%;
+}
+#foto2{
+    left: 11.5%;
+}
+#foto3{
+    left: 20.5%;
+}
+#foto4{
+    left: 29.5%;
+}
+#foto5{
+    left: 38.5%;
+}
+#foto6{
+    left: 47.5%;
+}
+#foto7{
+    left: 56.5%;
+}
+#foto8{
+    left: 65.5%;
+}
+#foto9{
+    left: 74.5%;
+}
+#foto10{
+    left: 83.5%;
+}
+
+
+
+
+/*GOOGLE MAP SECTION*/
 #mapContainer{
 	 margin: 0;
      padding: 0;
@@ -340,16 +242,18 @@ section{
 
 }
 
+.imagenGoogleMap{
+    height: 100%;
+    width:100%;
+}
 
-.centered{
-	color: #000000;
-	text-align: center;
-}
-.black{
-	color: #000000;
-}
-.white{
-	color: #ffffff
+/*LINKS*/
+
+#icons{
+    background-color: #25252D;
+    height: 10%!important;
+    position: relative;
+    padding-bottom: 3px;
 }
 
 .iconTwitter{
@@ -408,80 +312,7 @@ section{
      opacity: 1;
 }
 
-
-.hardAndSoftRow{
-    margin-top: 15%;
-    height: 70%;
-    margin: 0;
-    padding: 0;
-/*    min-height: 70%;
-    max-height: 100%;*/
-}
-.hsImage{
-    vertical-align: middle;
-    width: 80%
-    margin-left: auto;
-    margin-right: auto;
-}
-.mobilehsImage{
-    vertical-align: middle;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-.softwareDiv{
-    text-align:left;
-}
-.hardwareDiv{
-    text-align:right;
-}
-
-.frame{
-    overflow: visible;
-}
-.invisible{
-    display: none;
-}
-
-.inline{
-    display: inline;
-}
-
-.mobileWebIcon{
-    height: 120px!important;
-    margin-left: auto;
-    margin-right: auto;
-}
-.webIcon{
-    height: 100px!important;
-    margin-left: auto;
-    margin-right: auto;
-}
-.worksImages{
-    width: 95%!important;
-    margin-left: auto;
-    margin-right: auto;
-}
-.workDiv{
-    margin-bottom: 40px;
-}
-.informacion{
-    display: none;
-}
-#weAreHiringButton{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.haveAnIdeaContent{
-    position: absolute;
-    width: auto; 
-    height: auto;
-    top: 50%;
-  /*  left: 50%;*/
-
-}
+/*MODAL*/
 .areasModel{
     background-color: grey;
     text-align: left;
@@ -517,56 +348,4 @@ section{
 .message{
     height: 100px;
 }
-
-.fotosTeam{
-    width:100%;
-    display: inline;
-    bottom: 0;
-    position: absolute;
-}
-.divsFotos{
-    position: absolute;
-    bottom: 0;
-    width: 15%;
-    height: 60%;
-    display: inline;
-}
-.color{
-    display: none;
-}
-.iconRow{
-    margin-top: 60px;
-}
-
-#foto1{
-    left: 2.5%;
-}
-#foto2{
-    left: 11.5%;
-}
-#foto3{
-    left: 20.5%;
-}
-#foto4{
-    left: 29.5%;
-}
-#foto5{
-    left: 38.5%;
-}
-#foto6{
-    left: 47.5%;
-}
-#foto7{
-    left: 56.5%;
-}
-#foto8{
-    left: 65.5%;
-}
-#foto9{
-    left: 74.5%;
-}
-#foto10{
-    left: 83.5%;
-}
-
 
