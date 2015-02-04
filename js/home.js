@@ -40,6 +40,15 @@ $(document).ready(function(){
 	$('.haveAnIdeaContent').css({
 		'margin-top': -(Math.floor($('.haveAnIdeaContent').outerHeight(true)*0.5))
 	});
+	$('.esButton').click(function(){
+      $(this).css("color", "#25252D");
+      $('.enButton').css("color", "#B0B3B6");
+
+   	});
+	$('.enButton').click(function(){
+      $(this).css("color", "#25252D");
+      $('.esButton').css("color", "#B0B3B6");
+   	});
 
 	
 

@@ -25,21 +25,17 @@
 
 }
 
-/*.invisible{
-    display: none;
-}*/
-
 
 /*CRANIO SECTION*/
 .flags{
     position:absolute;
     top:5px;
-    right:5px;
+    right:15px;
 }
 
 .flag{
     float:left;
-    width:50px;
+    width:40px;
 }
 
 .cranioRow{
@@ -76,7 +72,6 @@
     width: auto; 
     height: auto;
     top: 50%;
-  /*  left: 50%;*/
 
 }
 
@@ -122,30 +117,6 @@
     overflow: visible;
 }
 
-/*.hardwareIconsDiv{
-    height: 100%!important;
-    min-height: 100%!important;
-    
-}
-*/
-/*.singleIconDiv{
-
-    height: 35%!important;
-    display: inline;
-    overflow: visible;
-}
-.iconImages{
-    height: 70px;
-}
-
-*/
-
-/*.mobileWebIcon{
-    height: 120px!important;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-
 /*TECHNOLOGY SECTION*/
 
 .webIcon{
@@ -175,6 +146,12 @@
 }
 
 /*THE TEAM SECTION*/
+.theTeamContainer{
+    padding: 0;
+    margin: 0;
+    height: 50%;
+    width: 100%;
+}
 .fotosTeam{
     width:100%;
     display: inline;

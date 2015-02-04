@@ -27,23 +27,30 @@ section{
     -o-background-size: cover;
     background-size: cover;	
     background-color: red;
-    height: 100%!important;
+    min-height: 100%;
+    height: auto;
+/*    height: 100%!important;*/
     position: relative;
 }
 
 #whatWeDo{
-	height: 100%;
+    min-height: 100%;
+    height: auto;
+/*	height: 100%;*/
 	position:relative;
 }
 
 #technology{ 
-    background-color: #25252D; 
-    height: 115%; 
+    background-color: #25252D;
+/*    min-height: 115%;*/
+    height: auto; 
+/*    height: 115%; */
     padding-top: 60px; 
 }
 
 #theTeam{
-	height: 85%!important;
+    min-height: 85%;
+	height: auto;
 	position: relative;
 
 }
@@ -76,7 +83,8 @@ section{
 
 #location{
 	background-color: white;
-	height: 15%!important;
+    height: 15%;
+/*	height: 15%!important;*/
 	position: relative;
     z-index: 400;
 }

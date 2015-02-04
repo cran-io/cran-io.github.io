@@ -2,6 +2,7 @@ var translations = {}
 
 translations.es = {
    slogan: "Desarrollo de Hardware y Software",
+   cranio_subtitle: "La inteligencia de los dispositivos tecnológicos se escribe en código nosotros manejamos los lenguajes.",
 
    what_we_do: "QUÉ HACEMOS",
    what_we_do_slogan: "Somos un equipo multidisplinario que conoce las herramientas indicadas para crear nuevas tecnologías.",
@@ -47,6 +48,7 @@ translations.es = {
 
 translations.en = {
    slogan: "Hardware and Software Development",
+   cranio_subtitle: "",
 
    what_we_do: "WHAT WE DO",
    what_we_do_slogan: "We are a multidisciplinary team with the right tools in hand.",

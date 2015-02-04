@@ -1,9 +1,14 @@
 $(document).ready(function(){
    var language = window.navigator.userLanguage || window.navigator.language;
    if (language.substring(0,2) == "es")
-      set_language("es");
+   {   set_language("es");
+     $('.esButton').css("color", "#25252D");
+   }
    else
-      set_language("en");
+   {   set_language("en");
+     $('.enButton').css("color", "#25252D");
+   }
+
    
    $('.flag').click(function(){
       set_language($(this).data("language"));
@@ -14,13 +19,15 @@ function set_language(language){
    var t = translations[language];
    // index
    $('#slogan').html(t.slogan);
+   $('.cranioSubtitle').each(function(){
+      $(this).html(t.cranio_subtitle);
+   });
    $('.whatWeDoTitle').each(function(){
       $(this).html(t.what_we_do);
    });
    $('.whatWeDoSubtitle').each(function(){
       $(this).html(t.what_we_do_slogan);
    });
-
    $('.hardwareDescription').each(function(){
       $(this).html(t.hardware_content);
    });
