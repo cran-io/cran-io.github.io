@@ -43,23 +43,18 @@ section{
 #technology{ 
     background-color: #25252D;
 /*    min-height: 115%;*/
-    height: auto; 
 /*    height: 115%; */
+    height: auto; 
     padding-top: 60px; 
 }
 
 #theTeam{
-    min-height: 85%;
+    min-height: 90%;
 	height: auto;
 	position: relative;
 
 }
-/*#mobileTheTeam{
-    height: auto;
-    position: relative;
-    padding: 10%;
 
-}*/
 #lastWorks{
 	height: auto!important;
     padding-top: 7%;
