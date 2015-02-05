@@ -142,6 +142,7 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 767px) { /*Para monitores xs*/
+/*	#cranio{padding-top: 0;}*/
     .title{font-size: 60px;}
 	.slogan{font-size: 20px;}
 	.titles{font-size: 25px;}
@@ -176,7 +177,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
-}
+	}
 	.divHaveAnIdea{
 	background-image: url('../images/have_an_idea_small.png');
     background-repeat: no-repeat;
@@ -199,11 +200,12 @@
 	.haveAnIdeaContainer {margin-top: 5%;
 		margin-bottom: 5%;}
 	.frame{margin-top: 9%!important;}
-	.cranioRow{margin-top: 20%;}
+	.cranioRow{margin-top: 10%;}
 	.softwareDiv{text-align:center;}
 	.hardwareDiv{text-align:center;}
 	#whatWeDo{height: auto;}
 	.softwareDefinitionDiv{margin-top: 0;}
+	#location{height: 15%;}
 
 }
 @media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
@@ -262,7 +264,8 @@
 	.softwareDiv{text-align:center;}
 	.hardwareDiv{text-align:center;}
 	#whatWeDo{height: auto;}
-	.softwareDefinitionDiv{margin-top: 0;}
+	.softwareDefinitionDiv{margin-top: 0;}	
+	#location{height: 15%;}
 
 }
 @media (min-width: 1600px){ /*Para monitores de resolucion muy grande*/
