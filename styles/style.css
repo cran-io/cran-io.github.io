@@ -205,7 +205,8 @@
 	.hardwareDiv{text-align:center;}
 	#whatWeDo{height: auto;}
 	.softwareDefinitionDiv{margin-top: 0;}
-	#location{height: 15%;}
+	#location{height: auto;}
+
 
 }
 @media (min-width: 768px) and (max-width: 991px) { /*Para monitores sm*/
