@@ -49,15 +49,19 @@
 .rowHaveAnIdea{
     padding-top: 5%;
 }
+.haveAnIdeaContainer {
+    height: 100%;
+    width: 100%;
+}
 
 .divHaveAnIdea{
-	background-image: url('../images/have_an_idea.png');
+	/*background-image: url('../images/have_an_idea.png');
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    background-size: 100% 100%;	
+    background-size: 100% 100%;	*/
     display: block;
   	max-width: 100%;
     max-height: 100%;
@@ -226,12 +230,6 @@
 
 /*LINKS*/
 
-#icons{
-    background-color: #25252D;
-    height: 10%!important;
-    position: relative;
-    padding-bottom: 3px;
-}
 
 .iconTwitter{
     background-image: url('../images/twitter_icon.png');

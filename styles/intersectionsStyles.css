@@ -9,13 +9,12 @@
     -o-background-size: contain;
     background-size: contain;
     z-index: 100;
-/*    background-color: #75757D;*/
     background-color: #25252D;
     display: block;
   	position: relative;
 
 }
-.triangle{
+.triangle, .iconsTriangle{
 	width: 100%!important;
 	height: 25%!important;
 	background-image: url('../images/tr1.png');
@@ -71,7 +70,7 @@
 }
 .whiteTriangle{
 	width: 100%!important;
-	height: 12.5%!important;
+    height: 25%!important;
 	background-image: url('../images/triangulo_blanco.png');
 	background-repeat: no-repeat;
     background-position: center;
@@ -110,3 +109,4 @@
     top: 0px;
     
 }
+
