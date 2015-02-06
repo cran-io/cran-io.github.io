@@ -153,5 +153,8 @@
     .divHaveAnIdea{
   	height: 90%!important;
   	margin: 0;}
+  	.iconsTriangle{height: 28.75%!important;}
+  	.invertedWhiteTriangle{height: 28.75%!important;}
+  	#icons{height: 25%!important;}
 
 }
