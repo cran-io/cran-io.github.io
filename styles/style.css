@@ -105,6 +105,16 @@
   	vertical-align: middle;
 
 }
+.backButton{
+	font-size: 27px;
+	color: #2c3e50!important;
+	border: solid #2c3e50 3px!important;
+	position:absolute;
+    top:5px;
+    right:15px;
+ 
+
+}
 .sendCloseButtons{
 	text-align: center;
 	font-family: 'futuraHeavy', sans-serif;

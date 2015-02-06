@@ -2,7 +2,7 @@ var translations = {}
 
 translations.es = {
    slogan: "Desarrollo de Hardware y Software",
-   cranio_subtitle: "La inteligencia de los dispositivos tecnológicos se escribe en código nosotros manejamos los lenguajes.",
+   cranio_subtitle: "",
 
    what_we_do: "QUÉ HACEMOS",
    what_we_do_slogan: "Somos un equipo multidisplinario que conoce las herramientas indicadas para crear nuevas tecnologías.",
@@ -33,7 +33,7 @@ translations.es = {
    we_are_hiring_button: "TRABAJÁ CON NOSOTROS",
 
    latest_projects: "ÚLTIMOS PROYECTOS",
-   latest_projects_description: "español", 
+   latest_projects_description: "Estos son algunos de nuestros trabajos.", 
 
    have_an_idea_title:"¿TENÉS UNA IDEA?",
    have_an_idea_first_paragraph:"Juntemosnos y charlemos en la mesa, tenemos café, galletitas y un montón de ideas también!",

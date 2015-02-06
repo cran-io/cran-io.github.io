@@ -13,6 +13,7 @@
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/translation.js"></script>
 		<script type="text/javascript" src="js/translation_management.js"></script>
+		<script type="text/javascript" src="js/mail.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles/bootstrap-theme.css">		
 		<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="styles/home.css">	
@@ -249,50 +250,50 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-offset-2 col-lg-8 centered">
-						<h2 class="black subTitles" id="nameTeam"><br/> </h2>
+						<h2 class="black boldText" id="nameTeam"><br/> </h2>
 						<p class=" black text" id="whatHeDoTeam"> </p>
 					</div>
 				</div>
 			
 
 				<div  style="display: inline;">
-					<div class="divsFotos" id="foto1" data-names="SEBI" data-whathedo="COO">
+					<div class="divsFotos" id="foto1" data-names="Sebastian Freijo" data-whathedo="COO">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/sebi_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/sebi.png">
 					</div>
-					<div class="divsFotos" id="foto2" data-names="LUCHO" data-whathedo="Software Developer">
+					<div class="divsFotos" id="foto2" data-names="Luciano Balmaceda" data-whathedo="Software Developer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/lucho_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/lucho.png">
 					</div>
-					<div class="divsFotos" id="foto3" data-names="COLO" data-whathedo="Hardware Developer">
+					<div class="divsFotos" id="foto3" data-names="Alan Jurnet" data-whathedo="Hardware Developer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/colo_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/colo.png">
 					</div>
-					<div class="divsFotos" id="foto4" data-names="DELFI" data-whathedo="Software Developer">
+					<div class="divsFotos" id="foto4" data-names="Delfina Polito" data-whathedo="Software Developer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/delfi_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/delfi.png">
 					</div>
-					<div class="divsFotos" id="foto5" data-names="JOTA" data-whathedo="Software Developer">
+					<div class="divsFotos" id="foto5" data-names="Juan Bautista Carpanelli" data-whathedo="Software Developer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/jota_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/jota.png">
 					</div>
-					<div class="divsFotos" id="foto6" data-names="JAVI" data-whathedo="CEO">
+					<div class="divsFotos" id="foto6" data-names="Javier Velazquez Traut" data-whathedo="CEO">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/javo_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/javo.png">
 					</div>
-					<div class="divsFotos" id="foto7" data-names="AGOS" data-whathedo="Designer">
+					<div class="divsFotos" id="foto7" data-names="Agostina Blanco" data-whathedo="Designer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/agos_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/agos.png">
 					</div>
-					<div class="divsFotos" id="foto8" data-names="MAIKOL" data-whathedo="CTO">
+					<div class="divsFotos" id="foto8" data-names="Miguel De Elias" data-whathedo="CTO">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/mike_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/mike.png">
 					</div>
-					<div class="divsFotos" id="foto9" data-names="DANI" data-whathedo="Software Developer">
+					<div class="divsFotos" id="foto9" data-names="Daniel Lobo" data-whathedo="Software Developer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/dani_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/dani.png">
 					</div>
-					<div class="divsFotos" id="foto10" data-names="TOMI" data-whathedo="Hardware Developer">
+					<div class="divsFotos" id="foto10" data-names="Thomas Schober" data-whathedo="Hardware Developer">
 						<img class="img-responsive fotosTeam blackAndWhite" src="images/thom_gris.png">
 						<img class="img-responsive fotosTeam color" src="images/thom.png">
 					</div>
@@ -305,7 +306,7 @@
 		</section>
 
 		<section class="interSectionWeAreHiring hidden-xs hidden-sm">
-			<button class="buttons" id="weAreHiringButton" type="button" data-toggle="modal" data-target="#myModal">WE ARE HIRING</button>
+			<button class="buttons " id="weAreHiringButton" type="button" onclick="window.location.href='contacto.html'">WE ARE HIRING</button>
 		</section>
 
 		<div  style="height: 5%;"></div>
@@ -367,18 +368,18 @@
 	     <div class="modal-body myModalBody" style="border:0;">
 	      	<div class="row centered">
 	      		<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 centered">
-	      			<input type="text" class="areasModel " placeHolder="Name"/>
+	      			<input type="text" class="areasModel " id='modalName' placeHolder="Name"/>
 	      		</div>
 	      		<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 centered">
-	      			<input type="text" class="areasModel " placeHolder="Mail"/>
+	      			<input type="text" class="areasModel " id='modalEMail' placeHolder="Mail"/>
 	      		</div>
 	      		<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 centered message">
-	      			​<textarea id="txtArea" class="areasModel " placeHolder="Messagge" rows="10" cols="70"></textarea>
+	      			​<textarea id="txtArea" class="areasModel " id='modalMessage' placeHolder="Messagge" rows="10" cols="70"></textarea>
 	      		</div>
 	      	</div>
 	     </div>
 	     <div class="modal-footer" style="border:0;">
-		   <button type="button" class="sendCloseButtons">SEND</button>
+		   <button type="button" class="sendCloseButtons" id="send">SEND</button>
 	     </div>
 	   </div>
 	 </div>

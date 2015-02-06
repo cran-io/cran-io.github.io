@@ -60,7 +60,7 @@ section{
 
 #lastWorks{
 	height: auto!important;
-    padding-top: 7%;
+    padding-top: 5%;
 	position: relative;
 }
 #haveAnIdea{
@@ -109,6 +109,12 @@ section{
     height: 12%!important;
     position: relative;
     padding-bottom: 20px;
+}
+
+#contacto{
+    background-color: #ecf0f1;
+    height: 150%!important;
+    position: relative;
 }
 
 
