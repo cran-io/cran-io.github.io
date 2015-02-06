@@ -281,5 +281,18 @@
 	.boldText{font-size: 17px;}
 }
 
+/* portrait */
+@media screen and (max-width: 767px) and (orientation:portrait) { /*para celulares vertical*/
+    
+}
+/* landscape */
+@media screen and (max-width: 767px) and (orientation:landscape) {  /*para celulares horizontal*/
 
+    .cranioRow{margin-top: 5%;}
+    #haveAnIdea{height: 160%!important;}
+    .haveAnIdeaContent{top: 45%;}
+    .divHaveAnIdea{
+  	height: 90%!important;
+  	margin: 0;}
 
+}
