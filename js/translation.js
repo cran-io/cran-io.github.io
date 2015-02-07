@@ -43,6 +43,7 @@ translations.es = {
    location: "DÓNDE ESTAMOS",
 
    modal_write_us: "ESCRIBINOS!",
+   modal_after_sent_message: "GRACIAS!",
    modal_send: "ENVIAR"
 };
 
@@ -87,7 +88,7 @@ translations.en = {
    mail_us_button:"CONTACT US",
 
    location: "LOCATION",
-
    modal_write_us: "CONTACT US!",
+   modal_after_sent_message: "THANK YOU!",
    modal_send: "SEND"
 };

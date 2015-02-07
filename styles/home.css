@@ -324,3 +324,6 @@
     height: 100px;
 }
 
+#finalMessageModalTitle{
+    display:none;
+}

@@ -306,7 +306,7 @@
 		</section>
 
 		<section class="interSectionWeAreHiring hidden-xs hidden-sm">
-			<button class="buttons " id="weAreHiringButton" type="button" onclick="window.location.href='contacto.html'">WE ARE HIRING</button>
+			<button class="buttons " id="weAreHiringButton" type="button" data-toggle="modal" data-target="#myModal">WE ARE HIRING</button>
 		</section>
 
 		<div  style="height: 5%;"></div>
@@ -363,18 +363,19 @@
 	   <div class="myModalContent" style="background-color:#25252D ;border:2px solid white;border-radius:0; color:white;">
 	     <div class="modal-header" style="border:0;" >
 	       <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;"><span aria-hidden="true">&times;</span></button>
-	       <h4 class="modal-title white textTitle" id="myModalLabel">CONTACT US!</h4>
+	       <h4 class="modal-title white textTitle" id="contactUsModalTitle">CONTACT US!</h4>
+	       <h4 class="modal-title white textTitle" id="finalMessageModalTitle">THANK YOU!</h4>
 	     </div>
 	     <div class="modal-body myModalBody" style="border:0;">
 	      	<div class="row centered">
 	      		<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 centered">
-	      			<input type="text" class="areasModel " id='modalName' placeHolder="Name"/>
+	      			<input type="text" class="areasModel " id='modalName' placeholder="Name"/>
 	      		</div>
 	      		<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 centered">
-	      			<input type="text" class="areasModel " id='modalEMail' placeHolder="Mail"/>
+	      			<input type="text" class="areasModel " id='modalEmail' placeholder="Mail"/>
 	      		</div>
 	      		<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8 centered message">
-	      			​<textarea id="txtArea" class="areasModel " id='modalMessage' placeHolder="Messagge" rows="10" cols="70"></textarea>
+	      			​<textarea class="areasModel" id='modalMessage' placeholder="Message" rows="10" cols="70"></textarea>
 	      		</div>
 	      	</div>
 	     </div>

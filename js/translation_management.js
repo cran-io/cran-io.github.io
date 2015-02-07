@@ -96,6 +96,7 @@ function set_language(language){
 
    $('.locationTitle').html(t.location);
 
-   $('#myModalLabel').html(t.modal_write_us);
+   $('#contactUsModalTitle').html(t.modal_write_us);
+   $('#finalMessageModalTitle').html(t.modal_after_sent_message);
    $('.sendCloseButtons').html(t.modal_send);
 }
