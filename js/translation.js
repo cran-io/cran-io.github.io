@@ -2,15 +2,13 @@ var translations = {}
 
 translations.es = {
    slogan: "Desarrollo de Hardware y Software",
-   cranio_subtitle: "",
+   cranio_subtitle: "Somos un equipo multidisplinario que conoce las herramientas indicadas para crear nuevas tecnologías.",
 
    what_we_do: "QUÉ HACEMOS",
-   what_we_do_slogan: "Somos un equipo multidisplinario que conoce las herramientas indicadas para crear nuevas tecnologías.",
+   what_we_do_slogan: "Integramos hardware, firmware y software, para brindar soluciones tecnológicas a medida.",
    hardware_content: "La posibilidad de crear algo físico y tangible que sea un poderoso soporte electrónico para nuevas tecnologías.",
    software_content: "La inteligencia de los dispositivos tecnológicos se escribe en código y nosotros manejamos los lenguajes para poder crear esa inteligencia.",
 
-   how_we_do_it: "CÓMO LO HACEMOS",
-   how_we_do_it_slogan: "Integramos hardware, firmware y software, para brindar soluciones tecnológicas a medida.",
    mobile_apps: "APLICACIONES MÓVILES",
    web_services: "SERVICIOS WEB",
    data_processing: "PROCESAMIENTO DE DATOS",
@@ -18,8 +16,8 @@ translations.es = {
    embedded_systems: "SISTEMAS EMBEBIDOS",
    signal_processing: "PROCESAMIENTO DE SEÑALES",
 
-   technology: "TECNOLOGÍA",
-   technology_description: "Tenemos la capacidad de innovar tanto en la selección de tecnologías como en su aplicación y la integración entre ellas.",   
+   technology: "CÓMO LO HACEMOS",
+   technology_description: "Tenemos la capacidad de innovar tanto en la selección de tecnologías como en su aplicación y en la integración entre ellas.",   
    mobile_apps_description: "Para ser exitoso, su negocio tiene que llegar a las plataformas móviles. Nosotros lo llevaremos.",
    web_services_description: "La nube es conectividad junto a un increíble poder de procesamiento y almacenamiento.",
    data_processing_description: "Sabemos cómo almacenar y modelar relaciones para obtener información valiosa de grandes bases de datos.",
@@ -37,7 +35,7 @@ translations.es = {
 
    have_an_idea_title:"¿TENÉS UNA IDEA?",
    have_an_idea_first_paragraph:"Juntemosnos y charlemos en la mesa, tenemos café, galletitas y un montón de ideas también!",
-   have_an_idea_second_paragraph:"Podemos hacer que tu idea sea una realidad",
+   have_an_idea_second_paragraph:"Podemos hacer que tu idea sea una realidad.",
    mail_us_button:"ESCRIBINOS",
 
    location: "DÓNDE ESTAMOS",
@@ -49,15 +47,13 @@ translations.es = {
 
 translations.en = {
    slogan: "Hardware and Software Development",
-   cranio_subtitle: "",
+   cranio_subtitle: "We are a multidisciplinary team with the right tools in hand to create new technologies.",
 
    what_we_do: "WHAT WE DO",
-   what_we_do_slogan: "We are a multidisciplinary team with the right tools in hand.",
+   what_we_do_slogan: "We specialize in hardware, firmware and software integration to develop customized solutions.",
    hardware_content: "We know how to design and create the tangible electronic support for new technologies.",
    software_content: "Intelligent systems are written in code and we can handle the languages needed to bring life to that intelligence.",
 
-   how_we_do_it: "HOW WE DO IT",
-   how_we_do_it_slogan: "We specialize in hardware, firmware and software integration to create new technological products.",
    mobile_apps: "MOBILE APPS",
    web_services: "WEB SERVICES",
    data_processing: "DATA PROCESSING",
@@ -65,8 +61,8 @@ translations.en = {
    embedded_systems: "EMBEDDED SYSTEMS",
    signal_processing: "SIGNAL PROCESSING",
 
-   technology: "TECHNOLOGY",
-   technology_description: "INGLES",   
+   technology: "HOW WE DO IT",
+   technology_description: "We chose the right technologies and we are eager to innovate in their application and integration.",   
    mobile_apps_description: "If you want to succeed, your business has to go mobile. We'll get you there.",
    web_services_description: "The Web is where all we do gets connected.",
    data_processing_description: "Data. Small or big. We know how to store it, model its relationships and get valuable information from it.",
