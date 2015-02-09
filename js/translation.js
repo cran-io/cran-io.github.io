@@ -2,7 +2,7 @@ var translations = {}
 
 translations.es = {
    slogan: "Desarrollo de Hardware y Software",
-   cranio_subtitle: "Somos un equipo multidisplinario que conoce las herramientas indicadas para crear nuevas tecnologías.",
+   cranio_subtitle: "Somos un equipo multidisciplinario que conoce las herramientas indicadas para crear nuevas tecnologías.",
 
    what_we_do: "QUÉ HACEMOS",
    what_we_do_slogan: "Integramos hardware, firmware y software, para brindar soluciones tecnológicas a medida.",
