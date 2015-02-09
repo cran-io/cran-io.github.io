@@ -75,11 +75,11 @@ translations.en = {
 
    we_are_hiring_button: "WE ARE HIRING",
 
-   latest_projects: "LAST PROJECTS",
+   latest_projects: "LATEST PROJECTS",
    latest_projects_description: "This is some of our portfolio", 
 
    have_an_idea_title:"HAVE AN IDEA?",
-   have_an_idea_first_paragraph:"Come and sit with us in the table, we have cookies, coffee and lots of ideas too.",
+   have_an_idea_first_paragraph:"Come and sit around the table with us, we have cookies, coffee and lots of ideas too.",
    have_an_idea_second_paragraph:"We can make your idea come true",
    mail_us_button:"CONTACT US",
 
