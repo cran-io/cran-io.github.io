@@ -313,7 +313,7 @@
     border-radius:0; 
     color:#25252D;
     position: relative;
-    padding: 50px;
+    padding: 10%;
     width: 80%;
     margin-left: 10%;
     margin-top: 20%;
@@ -333,7 +333,6 @@
 }
 .myModal-footer {
   padding: 0!important;
-/*  margin-right: 25px;*/
   border:0!important;
 }
 
