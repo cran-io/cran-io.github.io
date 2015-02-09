@@ -43,6 +43,11 @@
     margin-left: -15px;
     margin-right: -15px;
 }
+.cranioImage{
+    vertical-align: middle!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
 
 /*HAVE AN IDEA SECTION*/
 
@@ -94,14 +99,13 @@
     height: 70%;
     margin: 0;
     padding: 0;
-/*    min-height: 70%;
-    max-height: 100%;*/
 }
-.hsImage{
-    vertical-align: middle;
-    width: 80%
+.video{
+    vertical-align: middle!important;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: auto;
 }
 .mobilehsImage{
     vertical-align: middle;
@@ -153,11 +157,13 @@
 .theTeamContainer{
     padding: 0;
     margin: 0;
-    height: 50%;
+/*    height: 50%;*/
+    height: auto;
     width: 100%;
 }
-.fotosTeam{
-    width:100%;
+.fotosTeam{/*
+    width:100%;*/
+    width: auto;
     display: inline;
     bottom: 0;
     position: absolute;
@@ -166,7 +172,7 @@
     position: absolute;
     bottom: 0;
     width: 15%;
-    height: 60%;
+    height: auto!important;
     display: inline;
 }
 .color{
@@ -289,9 +295,9 @@
 
 /*MODAL*/
 .areasModel{
-    background-color: grey;
+    background-color: #303038;
     text-align: left;
-    color: #25252D;
+    color: white;
     margin-top: 16px;
     width: 100%;
     border-left: 0;
@@ -305,8 +311,12 @@
     border: 1px solid white;
     height: auto;
     border-radius:0; 
-    color:white;
+    color:#25252D;
     position: relative;
+    padding: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
   
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
@@ -316,6 +326,31 @@
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
             box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+.myModal-header {
+  padding: 0!important;
+  border:0!important;
+}
+.myModal-footer {
+  padding: 0!important;
+/*  margin-right: 25px;*/
+  border:0!important;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
 }
 .myModalBody{
     height: 300px;
