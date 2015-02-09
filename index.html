@@ -2,127 +2,393 @@
 <html>
 	<head>
 		<title>CRAN.IO | Hardware & Software Development</title>
-		<script src="js/jquery-1.9.1.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-		<script src="js/cranioFade.js"></script>
-		<script src="js/navigation.js"></script>
-		<script src="js/popover-trigger.js"></script>
-		<link rel="stylesheet" type="text/css" href="styles/cranio.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<meta charset="UTF-8"> <!--Encoding -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Movile first -->
+		<script src="js/jquery.min.js"></script><!--JQuery 1.11.2 local -->
+		<script src="js/jQueryRotate.js"></script><!--JQueryRotate local comprimida -->
+		<script src="js/jquery.easing-1.3.min.js"></script><!--JQueryEasing local comprimida -->
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/translation.js"></script>
+		<script type="text/javascript" src="js/translation_management.js"></script>
+		<script type="text/javascript" src="js/mail.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap-theme.css">		
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="styles/home.css">	
+		<link rel="stylesheet" type="text/css" href="styles/intersectionsStyles.css">	
+		<link rel="stylesheet" type="text/css" href="styles/sectionsStyles.css">	
+		<link rel="stylesheet" type="text/css" href="styles/style.css">	
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<link rel="stylesheet" type="text/css" href="styles/dottastico.css">
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><!--API de Google Maps -->
+		<script src="js/home.js"></script>
+		<script src="js/dottastico.js"></script>
 	</head>
 	<body>
-	  <section class="section section1">
-	   	<div class="container index">
-	   		<div class="row">
-	   			<div align="center" class="col-lg-8 col-lg-offset-2 cranio-logo">
-	   				<img src="images/cranio-logo-shadow.png" align="center" class="img-responsive center-block" alt="cran.io"></img>
-	   			</div>
-	   			<div class="col-lg-8 col-lg-offset-2 index-text">
-	   				<p>hardware and software development</p>
-	   			</div>
-	   		</div>
-	   	</div> 	
-	   	<a href="javascript:void(0)" class="arrow-link"><div class="down-arrow arrows1"><span class="glyphicon glyphicon-chevron-down"></span></div></a>
-	    </section>
-	    <section class="section section2">
-	    	
-	    </section>
-	    <section class="section section3">
-	    	<div class="container">
-	    	<div class="row">
-		    	<div class="col-xs-12 ">
-				<h1 class="section-title">one team, no barriers</h1></br>
-				<p class="section-info si-1">we specialize in hardware, firmware and software integration</p>
-	    		<div class="row">
-	    			<div class="col-xs-12">
-	    				<div class="row">
-	    					<div class="col-xs-12 horizontal-grid">
-		    					<div class="col-xs-12 col-md-4 service" id="service1">
-			    					<div class="col-xs-12">
-			    						<img class="icon icon1" src="images/01.png"></img>
-			    					</div>
-			    					<div class="col-xs-12">
-			    						<p class="image-footer">Embedded systems</p>
-			    					</div>
-		    					</div>
-		    					<div class="col-xs-12 col-md-4 service" id="service2">
-			    					<div class="col-xs-12">
-			    						<img class="icon icon2" src="images/05.png"></img>
-			    					</div>
-			    					<div class="col-xs-12">
-			    						<p class="image-footer">PCB Design</p>
-			    					</div>
-		    					</div>
-		    					<div class="col-xs-12 col-md-4 service" id="service3">
-		    						<div class="col-xs-12">
-		    							<img class="icon icon3" src="images/06.png"></img>
-		    						</div>
-		    						<div class="col-xs-12">
-		    							<p class="image-footer">Mobile applications</p>
-		    						</div>
-		    					</div>
-		    					<div class="col-xs-12 col-md-4 service" id="service4">
-			    					<div class="col-xs-12">
-			    						<img class="icon icon4" src="images/04.png"></img>
-			    					</div>
-			    					<div class="col-xs-12">
-			    						<p class="image-footer">Web services & applications</p>
-			    					</div>
-		    					</div>
-		    					<div class="col-xs-12 col-md-4 service" id="service5">
-			    					<div class="col-xs-12">
-			    						<img class="icon icon5" src="images/03.png"></img>
-			    					</div>
-			    					<div class="col-xs-12">
-			    						<p class="image-footer">Signal processing</p>
-			    					</div>
-		    					</div>
-		    					<div class="col-xs-12 col-md-4 service" id="service6">
-		    						<div class="col-xs-12">
-		    							<img class="icon icon6" src="images/02.png"></img>
-		    						</div>
-		    						<div class="col-xs-12">
-		    							<p class="image-footer">Data processing & analysis</p>
-		    						</div>
-		    					</div>
-		    				</div>
-		    			</div>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-	   </div>
-	    <a href="javascript:void(0)" class="arrow-link"><div class="down-arrow arrows3"><span class="glyphicon glyphicon-chevron-down"></span></div></a>	
-	    </section>
-	    <section class="section section4">
-	    </section>
-	    <section class="section section5">
-	    	<div class="container">
-	    		<div class="row">
-	    			<div class="col-xs-12">
-	    				<div class="mail-h"><a href="mailto:info@cran.io">info@cran.io</a></div>
-	    				<div class="address-h">+54 (11) 4774 8751<br><br>Uriarte 1882<br>Ciudad Aut&#243;noma de Buenos Aires<br>C1414DAV, Argentina</div>
+	 <div class="dottastico hidden-xs hidden-sm" data-shape="circle" data-time="1600" data-size="17px" data-color="#B0B3B6" data-position="left"></div>
+
+	 <section class="section dottable_section" id="cranio" data-dottable-index="1">
+			<div class="flags">
+				<a href="#" class="flag esButton"  data-language="es">ES</a>
+				<a href="#" class="flag enButton"  data-language="en">EN</a>
+			</div>
+			<div class="container  ">
+				<div class="row cranioRow">
+					<div class="col-lg-offset-2 col-lg-8 centered">
+						<img class="img-responsive cranioImage" src="images/cranio-logo.png">
+						<!-- <h1 class="title centered">CRAN.IO</h1> -->
 					</div>
-		    		<div class="col-xs-10 col-xs-offset-1">
-						<div class="row">
-							<div class="col-xs-12 horizontal-grid">
-								<div class="row">
-									<div class="col-xs-3 col-xs-offset-1 social-network">
-										<a href="http://github.com/cran-io" target="_blank"><img class="sn-icon" src="images/github.png" alt="github"></img></a>
-									</div>
-									<div class="col-xs-2 col-xs-offset-1 social-network">
-										<a href="https://www.facebook.com/be.cran.io" target="_blank"><img class="sn-icon" src="images/facebook.png" alt="facebook"></img></a>
-									</div>
-									<div class="col-xs-3 col-xs-offset-1 social-network">
-										<a href="http://twitter.com/cran_io" target="_blank"><img class="sn-icon" src="images/twitter.png" alt="twitter"></img></a>
-									</div>
-								</div>
+					<div class="row">
+						<div class="col-lg-offset-3 col-lg-6 col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 centered">
+							<p id="slogan" class= "slogan">Hardware & Software Development</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-5 col-xs-offset-1 col-xs-10 centered">
+							<p class= "white cranioSubtitle"><br/>La inteligencia de los dispositivos tecnológicos se escribe en código nosotros manejamos los lenguajes.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="flipTriangle"></div>
+		
+		</section>
+		<!-- ahora el triangulo esta afuera y es position static . Usarlas arriba y abajo de las secciones que queremos que tengan height diferente a 100% sin romper los separadores-->
+		<div class="flipInvertedTriangle" style="position:static;"></div>
+		
+		<section class="section dottable_section" id="whatWeDo" data-dottable-index="2">
+			<div class="myContainer ">
+
+				<div class="row">
+					<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8 centered">
+						<h2 class="black titles whatWeDoTitle" >WHAT WE DO</h2>
+						<p class="black subTitles whatWeDoSubtitle" >We are a multidisciplinary team with the right tools in hand.</p>
+					</div>
+				</div>
+
+				<div class="row hardAndSoftRow " style="margin-top: 20px;">
+
+					<div class="col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-offset-2 col-xs-offset-2 col-sm-8 col-xs-8 hardwareDefinitionDiv hardwareDiv"  id="hardwareDef">
+						<h3 class="black HardSoftTitle" >HARDWARE</h3>
+						<p class="black HardSoftContent hardwareDescription">We know how to design and create the tangible electronic support for new technologies.</p>
+					</div>	
+
+					<!-- <div class="hidden-sm hidden-xs col-lg-4 col-md-4 col-xs-4 centered frame">
+						<img class="hsImage img-responsive centered" src="images/H-S.png">
+					</div> -->
+					<div class="hidden-sm hidden-xs col-lg-4 col-md-4 col-xs-4 centered frame video">
+						<video width="90%"  autoplay loop>
+					  	<source src="images/video.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+						</video>
+					</div>
+
+					<div class="hidden-lg hidden-md centered col-sm-12 col-xs-12 ">
+						<img class="img-responsive mobilehsImage" src="images/H-S-mobile.png">
+					</div>
+
+					<div class="col-lg-offset-0 col-md-offset-0 col-lg-3 col-md-3  col-sm-offset-2 col-xs-offset-2 col-sm-8 col-xs-8 softwareDefinitionDiv softwareDiv "  id="softwareDef">
+						<h3 class="black HardSoftTitle" >SOFTWARE</h3>
+						<p class="black HardSoftContent softwareDescription">Intelligent systems are written in code and we can handle the languages needed to bring life to that intelligence.</p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<div class="triangle" style="position:static; bottom:0!important;"></div>
+
+		<section  class="section dottable_section" id="technology" data-dottable-index="3">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8 centered">
+						<h2 class="white titles technology"><br/>TECHNOLOGY</h2>
+						<p class="white subTitles technologyDescription">We know how to use it.<br/><br/></p>
+					</div>
+				</div>
+
+				<div class="row iconRow ">
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 centered ">
+						<img class="img-responsive webIcon centered" src="images/color_diseno_hardware.png">
+					</div>
+					<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
+						<h2 class="white iconsTitles hardwareDesign">HARDWARE DESIGN</h2>
+						<p class="white iconsContent hardwareDesignDescription">Electronic board design is both art and science.</p>
+					</div>
+				
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 centered ">
+						<img class="img-responsive webIcon centered" src="images/color_aplicaciones_movil.png">
+					</div>
+					<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
+						<h2 class="white iconsTitles mobileApps">MOBILE APPS</h2>
+						<p class="white iconsContent mobileAppsDescription">If you want to succeed, your business has to go mobile. We'll get you there.</p>
+					</div>
+				</div>
+
+				<div class="row iconRow">
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 centered">
+						<img class="img-responsive webIcon centered" src="images/color_procesamiento_senales.png">
+					</div>
+					<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
+						<h2 class="white iconsTitles signalProcessing">SIGNAL PROCESSING</h2>
+						<p class="white iconsContent signalProcessingDescription">In this world signals are over-abundant; grasp them all.</p>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 centered">
+						<img class="img-responsive webIcon centered" src="images/color_servicios_web.png">
+					</div>
+					<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
+						<h2 class="white iconsTitles webServices">WEB SERVICES</h2>
+						<p class="white iconsContent webServicesDescription">The Web is where all we do gets connected.</p>
+					</div>	
+				</div>
+
+				<div class="row iconRow ">
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 centered">
+						<img class="img-responsive webIcon  centered" src="images/color_sistemas_embebidos.png">
+					</div>
+					<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12">
+						<h2 class="white iconsTitles embeddedSystems">EMBEDDED SYSTEMS</h2>
+						<p class="white iconsContent embeddedSystemsDescription">We love lgall, special purpose computers, and we know how to get the most of them writing blazing fast software.</p>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 centered ">
+						<img class="img-responsive webIcon centered" src="images/color_procesamiento_datos.png">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<h2 class="white iconsTitles dataProcessing">DATA PROCESSING</h2>
+						<p class="white iconsContent dataProcessingDescription">Data. lgall or big. We know how to store it, model its relationships and get valuable information from it.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<div class="invertedTriangle" style="position:static;"></div>
+
+		<section class="section dottable_section" id="lastWorks" data-dottable-index="4">
+			<div class="container ">
+				<div class="row">
+					<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8 centered">
+						<h2 class="black titles" id="latestProjects">LAST PROJECTS</h2>
+						<p class=" black subTitles" id="latestProjectsDescription">Portfolio.</p>
+					</div>
+				</div>
+				<div class="row" style="padding-bottom:5%; padding-top: 2%;">
+					<div class="  col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_alamo_1.jpg">
+						<img class="img-responsive worksImages informacion" src="images/works_alamo_2.jpg">
+					</div>
+					<div class=" col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_gruapp_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_gruapp_2.jpg" >
+					</div>
+					<div class=" col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_newine_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_newine_2.jpg" >
+					</div>
+					<div class=" col-lg-4 hidden-md hidden-xs hidden-sm centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_remmo_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_remmo_2.jpg" >
+					</div>
+					<div class=" col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_snaggy_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_snaggy_2.jpg" >
+					</div>
+					<div class="col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_sust_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_sust_2.jpg" >
+					</div>
+					<div class="col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_tabi_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_tabi_2.jpg" >
+					</div>
+					<div class="col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_topos_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_topos_2.jpg" >
+					</div>
+					<div class=" col-lg-4 col-xs-6 centered workDiv">
+						<img class="img-responsive worksImages logo" src="images/works_ypf_1.jpg">
+						<img class="img-responsive worksImages informacion " src="images/works_ypf_2.jpg" >
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section dottable_section" id="haveAnIdea" data-dottable-index="5">
+			<div class="lastWorksTriangle hidden-lg hidden-md"></div>
+
+			<div class="container haveAnIdeaContainer onlyRow">
+				<div class="row onlyRow" id= "rowHaveAnIdea">
+					<div class="col-lg-6 col-xs-12  col-md-6 col-sm-12 divHaveAnIdea">
+						<div class="row haveAnIdeaContent" id="haveAnIdeaContent" >
+							<div class=" col-lg-offset-1 col-lg-10 col-xs-offset-1 col-xs-10 centered">
+								<br/><h2 class= "white textTitle haveAnIdeaTitle">HAVE AN IDEA?<br/></h2>
 							</div>
-						</div>	    	
-	    			</div>
-	    		</div>
-	    	</div>
-	    </section>
+							<div class="col-lg-offset-1 col-lg-10 col-xs-offset-0 col-xs-12 centered">
+								<p class= "white text haveAnIdeaFP"> Come and sit with us in the table, we have cookies, coffee and lots of ideas too.</p>
+							</div>
+							<div class="col-lg-offset-1 col-lg-10 col-xs-offset-0 col-xs-12 centered">
+								<p class="white boldText haveAnIdeaSP"> We can help your idea come true</p><br/><br/>
+							</div>
+							<div class="col-lg-offset-1 col-lg-10 col-xs-offset-2 col-xs-8 centered">
+								<button id="mailUs" class="buttons" type="button" data-toggle="modal" data-target="#myModal" >CONTACT US</button>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="whiteTriangle hidden-lg hidden-md"></div>
+		</section>
+		
+		
+		<section class="section dottable_section hidden-xs hidden-sm" id="theTeam" data-dottable-index="6">
+			<div class="theTeamContainer ">
+				<div class="row">
+					<div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8 centered">
+						<h2 class="black titles theTeam">THE TEAM</h2>
+						<p class=" black subTitles theTeamDescription">Young and courageous, yet thinkful and professional people. They will find passion in your project.</p>
+					</div>
+				</div>
+				<div class="row" style="height:90px;">
+					<div class="col-lg-offset-2 col-lg-8 centered">
+						<h2 class="black boldText" id="nameTeam"><br/> </h2>
+						<p class=" black text" id="whatHeDoTeam"> </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section dottable_section hidden-xs hidden-sm" id="theTeam" data-dottable-index="6">
+				<div class="row " style="height:28vw;">
+					<div  style="display: inline;" style="height:auto;">
+						<div class="divsFotos" id="foto1" data-names="Sebastian Freijo" data-whathedo="COO">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/sebi_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/sebi.png">
+						</div>
+						<div class="divsFotos" id="foto2" data-names="Luciano Balmaceda" data-whathedo="Software Developer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/lucho_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/lucho.png">
+						</div>
+						<div class="divsFotos" id="foto3" data-names="Alan Jurnet" data-whathedo="Hardware Developer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/colo_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/colo.png">
+						</div>
+						<div class="divsFotos" id="foto4" data-names="Delfina Polito" data-whathedo="Software Developer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/delfi_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/delfi.png">
+						</div>
+						<div class="divsFotos" id="foto5" data-names="Juan Bautista Carpanelli" data-whathedo="Software Developer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/jota_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/jota.png">
+						</div>
+						<div class="divsFotos" id="foto6" data-names="Javier Velazquez Traut" data-whathedo="CEO">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/javo_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/javo.png">
+						</div>
+						<div class="divsFotos" id="foto7" data-names="Agostina Blanco" data-whathedo="Designer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/agos_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/agos.png">
+						</div>
+						<div class="divsFotos" id="foto8" data-names="Miguel De Elias" data-whathedo="CTO">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/mike_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/mike.png">
+						</div>
+						<div class="divsFotos" id="foto9" data-names="Daniel Lobo" data-whathedo="Software Developer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/dani_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/dani.png">
+						</div>
+						<div class="divsFotos" id="foto10" data-names="Thomas Schober" data-whathedo="Hardware Developer">
+							<img class="img-responsive fotosTeam blackAndWhite" src="images/thom_gris.png">
+							<img class="img-responsive fotosTeam color" src="images/thom.png">
+						</div>
+						
+				</div>
+			</div>
+		</section>
+
+		<section class="interSectionWeAreHiring hidden-xs hidden-sm">
+			<button class="buttons " id="weAreHiringButton" type="button" data-toggle="modal" data-target="#myModal">WE ARE HIRING</button>
+		</section>
+
+		<div  style="height: 5%;"></div>
+
+
+		<section class="section dottable_section" id="location" data-dottable-index="7">
+			<div class="myContainer">
+				<div class="row">
+					<div class=" col-lg-offset-1 col-lg-11 col-md-offset-1 col-md-11 col-xs-offset-1 col-xs-10"> 
+						<p class= "black locationTitle">LOCATION</p>
+					</div>
+					<div class="col-lg-offset-1 col-lg-8 col-md-offset-1 col-md-8 col-xs-offset-1 col-xs-8"> 
+						<p class= "black direction">Uriarte 1882, C1414DAV<br>Buenos Aires, Argentina<br>+54 11 4774 8751</p>
+					</div>
+				</div>
+			</div>	
+		</section>
+		
+		<section class="section " id="googleMap" >
+			<div class="invertedWhiteTriangle"></div>
+			<div class="iconsTriangle"></div>
+		</section>
+
+		<section class="section" id="icons">	
+
+			<a href="http://twitter.com/cran_io" target=_blank >
+				<div class="col-lg-offset-7 col-md-offset-1 col-xs-offset-2 col-lg-1 col-sm-2 col-xs-2 onlyRow icon iconTwitter "></div> 
+			</a>
+
+			<a href="http://www.facebook.com/be.cran.io" target=_blank>
+				<div class="col-lg-1 col-sm-2 col-xs-2 onlyRow icon iconFacebook "></div> 
+			</a>
+
+			<a href="http://github.com/cran-io" target=_blank>
+			<div class="col-lg-1 col-sm-2 col-xs-2 onlyRow icon iconGitHub "></div> 
+			</a>
+
+			<a href="https://www.linkedin.com/company/3585742?trk=tyah&trkInfo=tarId%3A1421421919032%2Ctas%3Acran.io%2Cidx%3A2-1-6" target=_blank>
+			<div class="col-lg-1  onlyRow col-xs-2 icon iconLinkedin "></div> 
+			</a>
+
+			
+			<a href="#myModal" target=_blank data-toggle="modal">
+			<div class="col-lg-1  onlyRow col-xs-2 icon iconMail "></div> 
+			</a>
+
+		</section>
+		
 	</body>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	 <div class="modal-dialog myModal-dialog" >
+	   <div class="myModalContent" >
+	     <div class="modal-header myModal-header " >
+	       <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;"><span aria-hidden="true">&times;</span></button>
+	       <h4 class="modal-title white textTitle" id="contactUsModalTitle">CONTACT US!</h4>
+	       <h4 class="modal-title white textTitle" id="finalMessageModalTitle">THANK YOU!</h4>
+	     </div>
+	     <div class="modal-body myModalBody" style="border:0;">
+	      	<div class="row centered">
+	      		<div class=" col-lg-12  col-md-12 col-sm-12  col-xs-12 centered">
+	      			<input type="text" class="areasModel " style=" height: 30px;" id='modalName' placeholder=" Name"/>
+	      		</div>
+	      		<div class=" col-lg-12  col-md-12 col-sm-12  col-xs-12 centered">
+	      			<input type="text" class="areasModel " style=" height: 30px;" id='modalEmail' placeholder=" Mail"/>
+	      		</div>
+	      		<div class=" col-lg-12  col-md-12 col-sm-12  col-xs-12 centered message">
+	      			​<textarea class="areasModel" id='modalMessage' placeholder=" Message" rows="7" cols="70"></textarea>
+	      		</div>
+	      	</div>
+	     </div>
+	     <div class="modal-footer myModal-footer centered" style="border:0;">
+		   <button type="button centered" class="sendCloseButtons" id="send">SEND</button>
+	     </div>
+	   </div>
+	 </div>
+	</div>
+
+
 </html>

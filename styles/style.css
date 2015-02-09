@@ -1,0 +1,157 @@
+
+/*FONTS*/
+@font-face {
+ font-family: 'futuraBold';
+ src: url('../fonts/FuturaStd-Bold.otf') format('opentype');
+}
+@font-face {
+ font-family: 'futuraHeavy';
+ src: url('../fonts/FuturaStd-Heavy.otf') format('opentype');
+}
+@font-face {
+ font-family: 'futuraBook';
+ src: url('../fonts/FuturaStd-Book.otf') format('opentype');
+}
+@font-face {
+ font-family: 'helveticaNL';
+ src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format('opentype');
+}
+@font-face {
+ font-family: 'helveticaNM';
+ src: url('../fonts/HelveticaNeueLTStd-Md.otf') format('opentype');
+}
+
+/*TEXTS*/
+.title{
+	color: white;
+	text-align: center;
+	font-family: 'futuraBold', sans-serif;
+	font-size: 100px;
+}
+
+.slogan{
+	color: white;
+	text-align: center;
+	font-family: 'futuraBook', sans-serif;
+	font-size: 35px;
+
+}
+.titles{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 40px;
+}
+.subTitles{
+	text-align: center;
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.cranioSubtitle{
+	ext-align: center;
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 21px;
+}
+.HardSoftTitle{
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 35px;
+}
+
+.HardSoftContent{
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 20px;
+}
+.iconsTitles{
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 20px;
+}
+.iconsContent{
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 15px;
+}
+
+.textTitle{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 35px;
+}
+.text{
+	text-align: center;
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 20px;
+}
+.boldText{
+	text-align: center;
+	font-family: 'helveticaNM', sans-serif;
+	font-size: 20px;
+}
+.locationTitle{
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 35px;
+	overflow: visible;
+}
+.direction{
+	font-family: 'helveticaNL', sans-serif;
+	font-size: 23px;
+	overflow: visible;
+}
+
+/*BUTTONS*/
+
+.buttons{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 27px;
+	color: #ffffff;
+  	font-size: 20px;
+  	background: transparent;
+  	padding: 10px 20px 10px 20px;
+  	border: solid #ffffff 3px;
+  	text-decoration: none;
+  	vertical-align: middle;
+
+}
+.backButton{
+	font-size: 27px;
+	color: #2c3e50!important;
+	border: solid #2c3e50 3px!important;
+	position:absolute;
+    top:5px;
+    right:15px;
+ 
+
+}
+.sendCloseButtons{
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	color: #ffffff;
+  	font-size: 15px;
+  	background: transparent;
+  	padding: 5px 7px 5px 7px;
+  	border: solid #ffffff 2px;
+  	text-decoration: none;
+  	vertical-align: middle;
+
+}
+.enButton {
+	text-align: center;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 15px;
+	color: #B0B3B6;
+  	background: transparent;
+  	padding-top: 10px;
+  	vertical-align: center;
+  	border: transparent;
+
+}
+.esButton {
+	text-align: right;
+	font-family: 'futuraHeavy', sans-serif;
+	font-size: 15px;
+	color: #B0B3B6;
+  	background: transparent;
+  	padding-top: 10px;
+  	vertical-align: center;
+  	border: transparent;
+}
+

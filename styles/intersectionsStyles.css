@@ -1,0 +1,112 @@
+.interSectionWeAreHiring{
+    width: 100%!important;
+	height:15%;
+/*    padding-top: 6%;*/
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    z-index: 100;
+    background-color: #25252D;
+    display: block;
+  	position: relative;
+
+}
+.triangle, .iconsTriangle{
+	width: 100%!important;
+	height: 25%!important;
+	background-image: url('../images/tr1.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.invertedTriangle{
+	width: 100%!important;
+	height: 25%!important;
+	background-image: url('../images/tr2.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+.flipTriangle{
+    width: 100%!important;
+    height: 25%!important;
+    background-image: url('../images/flip-tr1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.flipInvertedTriangle{
+    width: 100%!important;
+    height: 25%!important;
+    background-image: url('../images/flip-tr2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+.whiteTriangle{
+	width: 100%!important;
+    height: 25%!important;
+	background-image: url('../images/triangulo_blanco.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.lastWorksTriangle{
+    width: 100%!important;
+    height: 12.5%!important;
+    background-image: url('../images/triangulo_blanco_invertido.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.invertedWhiteTriangle{
+	width: 100%!important;
+	height: 25%!important;
+	background-image: url('../images/triangulo_blanco_invertido.png');
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    
+}
+

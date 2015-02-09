@@ -1,0 +1,118 @@
+html, body, section {
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+section{
+	position: relative;
+
+}
+
+.section{
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#cranio{
+	background-image: url('../images/cranio.jpg');
+	background-repeat: no-repeat;
+   	background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+    background-color: red;
+/*    min-height: 100%;*/
+    height: 100%;
+    padding-bottom: 40%;
+    position: relative;
+}
+
+#whatWeDo{
+    padding-top: 55px;
+    min-height: 100%;
+/*    height: auto;*/
+	height: 100%;
+	position:relative;
+}
+
+#technology{ 
+    background-color: #25252D;
+/*    min-height: 115%;*/
+/*    height: 115%; */
+    height: auto; 
+    padding-top: 60px; 
+    padding-bottom: 100px; 
+}
+
+#theTeam{
+    margin-top: 5%;
+	height: auto;
+	position: relative;
+
+}
+
+#lastWorks{
+	height: auto!important;
+    padding-top: 5%;
+	position: relative;
+}
+#haveAnIdea{
+
+	background-image: url('../images/foto_galletitas_4bis.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;	
+    display: block;
+  	height: 1215px;	
+    padding-top: 12%;
+    padding-bottom: 12%;
+  	position: relative;
+}
+
+#location{
+	background-color: white;
+    height: 20%;
+	position: relative;
+    z-index: 400;
+}
+#googleMap{
+   background-image: url('http://maps.google.com/maps/api/staticmap?center=-34.585455,-58.429021&zoom=13&scale=2&markers=-34.585451,-58.429075&size=1080x300&sensor=false');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: grey; 
+    height: 70%!important; 
+    display: block;
+    max-width: 100%;
+	position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#icons{
+    background-color: #25252D;
+    height: 12%!important;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#contacto{
+    background-color: #ecf0f1;
+    height: 150%!important;
+    position: relative;
+}
+
+
