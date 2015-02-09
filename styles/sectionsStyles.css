@@ -52,7 +52,6 @@ section{
 
 #theTeam{
     margin-top: 5%;
-    min-height: 100%;
 	height: auto;
 	position: relative;
 
@@ -65,7 +64,7 @@ section{
 }
 #haveAnIdea{
 
-	background-image: url('../images/foto_galletitas_4.jpg');
+	background-image: url('../images/foto_galletitas_4bis.png');
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: 100% 100%;
@@ -73,7 +72,7 @@ section{
     -o-background-size: 100% 100%;
     background-size: 100% 100%;	
     display: block;
-  	height: 100%!important;	
+  	height: 1215px;	
     padding-top: 12%;
     padding-bottom: 12%;
   	position: relative;
@@ -82,7 +81,6 @@ section{
 #location{
 	background-color: white;
     height: 20%;
-/*	height: 15%!important;*/
 	position: relative;
     z-index: 400;
 }
