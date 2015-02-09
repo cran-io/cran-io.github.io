@@ -20,8 +20,10 @@ $(document).ready(function(){
 			url: "http://cranio-mail-sender.herokuapp.com/email_sender.json",
 			dataType: "json",
 			data: ({
-				message: $('#modalMessage').val(),
-				name: $('#modalEmail').val()
+				data:{
+					message: $('#modalMessage').val(),
+					name: $('#modalEmail').val()
+				}
 			})
 		});
 	});
