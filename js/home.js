@@ -7,12 +7,27 @@ $(document).ready(function(){
 		}
 	});
 
+	window.addEventListener("orientationchange", function() {
+  // Announce the new orientation number
+  			$('#weAreHiringButton').css({
+		// 'margin-bottom': ((sectionHeight - (Math.floor($('#weAreHiringButton').outerHeight(true)))) *0.5),
+		// 'margin-right': ((sectionWidth - (Math.floor($('#weAreHiringButton').outerWidth(true)))) *0.5),
+		'top':(($('.interSectionWeAreHiring').outerHeight(true))*0.5),
+		'right':(($('.interSectionWeAreHiring').outerWidth(true))*0.5),
+		'margin-top': -(Math.floor($('#weAreHiringButton').outerHeight(true)*1)),
+		'margin-left': -(Math.floor($('#weAreHiringButton').outerWidth(true)*1))
+		});
+	}, false);
+
 	$( window ).resize(function() {
 		$('#weAreHiringButton').css({
-		'margin-bottom': ((sectionHeight - (Math.floor($('#weAreHiringButton').outerHeight(true)))) *0.5),
-		'margin-right': ((sectionWidth - (Math.floor($('#weAreHiringButton').outerWidth(true)))) *0.5)
-	});
-
+		// 'margin-bottom': ((sectionHeight - (Math.floor($('#weAreHiringButton').outerHeight(true)))) *0.5),
+		// 'margin-right': ((sectionWidth - (Math.floor($('#weAreHiringButton').outerWidth(true)))) *0.5),
+		'top':(($('.interSectionWeAreHiring').outerHeight(true))*0.5),
+		'right':(($('.interSectionWeAreHiring').outerWidth(true))*0.5),
+		'margin-top': -(Math.floor($('#weAreHiringButton').outerHeight(true)*1)),
+		'margin-left': -(Math.floor($('#weAreHiringButton').outerWidth(true)*1))
+		});
 	});
 	
 	$( ".workDiv" ).mouseenter( function(){
@@ -41,11 +56,15 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#weAreHiringButton').css({
 		'margin-top': -(Math.floor($('#weAreHiringButton').outerHeight(true)*0.5)),
 		'margin-left': -(Math.floor($('#weAreHiringButton').outerWidth(true)*0.5))
+
 	});
-	
+
+
+
 	$('.haveAnIdeaContent').css({
 		'margin-top': -(Math.floor($('.haveAnIdeaContent').outerHeight(true)*0.5))
 	});
