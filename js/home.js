@@ -33,10 +33,15 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#weAreHiringButton').css({
 		'margin-top': -(Math.floor($('#weAreHiringButton').outerHeight(true)*0.5)),
 		'margin-left': -(Math.floor($('#weAreHiringButton').outerWidth(true)*0.5))
+
 	});
+
+
+
 	$('.haveAnIdeaContent').css({
 		'margin-top': -(Math.floor($('.haveAnIdeaContent').outerHeight(true)*0.5))
 	});
