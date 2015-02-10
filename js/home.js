@@ -6,6 +6,14 @@ $(document).ready(function(){
 			basicTurn(0);
 		}
 	});
+
+	$( window ).resize(function() {
+		$('#weAreHiringButton').css({
+		'margin-bottom': ((sectionHeight - (Math.floor($('#weAreHiringButton').outerHeight(true)))) *0.5),
+		'margin-right': ((sectionWidth - (Math.floor($('#weAreHiringButton').outerWidth(true)))) *0.5)
+	});
+
+	});
 	
 	$( ".workDiv" ).mouseenter( function(){
 		$(this).find(".logo").hide();
@@ -37,6 +45,7 @@ $(document).ready(function(){
 		'margin-top': -(Math.floor($('#weAreHiringButton').outerHeight(true)*0.5)),
 		'margin-left': -(Math.floor($('#weAreHiringButton').outerWidth(true)*0.5))
 	});
+	
 	$('.haveAnIdeaContent').css({
 		'margin-top': -(Math.floor($('.haveAnIdeaContent').outerHeight(true)*0.5))
 	});
