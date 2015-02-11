@@ -2,6 +2,7 @@
 
 @media (max-width: 767px) { /*Para monitores xs*/
 /*	#cranio{padding-top: 0;}*/
+	#cranio{min-height: 100px;}
     .title{font-size: 60px;}
 	.slogan{font-size: 20px;}
 	.titles{font-size: 25px;}
