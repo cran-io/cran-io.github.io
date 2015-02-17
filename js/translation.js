@@ -17,7 +17,7 @@ translations.es = {
    signal_processing: "PROCESAMIENTO DE SEÑALES",
 
    technology: "CÓMO LO HACEMOS",
-   technology_description: "Tenemos la capacidad de innovar tanto en la selección de tecnologías como en su aplicación y en la integración entre ellas.",   
+   technology_description: "Tenemos la capacidad de innovar tanto en la selección de tecnologías como en su aplicación y en la integración entre ellas.",
    mobile_apps_description: "Para ser exitoso, su negocio tiene que llegar a las plataformas móviles. Nosotros lo llevaremos.",
    web_services_description: "La nube es conectividad junto a un increíble poder de procesamiento y almacenamiento.",
    data_processing_description: "Sabemos cómo almacenar y modelar relaciones para obtener información valiosa de grandes bases de datos.",
@@ -31,10 +31,10 @@ translations.es = {
    we_are_hiring_button: "TRABAJÁ CON NOSOTROS",
 
    latest_projects: "ÚLTIMOS PROYECTOS",
-   latest_projects_description: "Estos son algunos de nuestros trabajos.", 
+   latest_projects_description: "Estos son algunos de nuestros trabajos.",
 
    have_an_idea_title:"¿TENÉS UNA IDEA?",
-   have_an_idea_first_paragraph:"Juntemosnos y charlemos en la mesa, tenemos café, galletitas y un montón de ideas también!",
+   have_an_idea_first_paragraph:"Juntémonos y charlemos en la mesa, tenemos café, galletitas y un montón de ideas también!",
    have_an_idea_second_paragraph:"Podemos hacer que tu idea sea una realidad.",
    mail_us_button:"ESCRIBINOS",
 
@@ -62,7 +62,7 @@ translations.en = {
    signal_processing: "SIGNAL PROCESSING",
 
    technology: "HOW WE DO IT",
-   technology_description: "We chose the right technologies and we are eager to innovate in their application and integration.",   
+   technology_description: "We chose the right technologies and we are eager to innovate in their application and integration.",
    mobile_apps_description: "If you want to succeed, your business has to go mobile. We'll get you there.",
    web_services_description: "The Web is where all we do gets connected.",
    data_processing_description: "Data. Small or big. We know how to store it, model its relationships and get valuable information from it.",
@@ -76,7 +76,7 @@ translations.en = {
    we_are_hiring_button: "WE ARE HIRING",
 
    latest_projects: "LATEST PROJECTS",
-   latest_projects_description: "This is some of our portfolio", 
+   latest_projects_description: "This is some of our portfolio",
 
    have_an_idea_title:"HAVE AN IDEA?",
    have_an_idea_first_paragraph:"Come and sit around the table with us, we have cookies, coffee and lots of ideas too.",
