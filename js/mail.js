@@ -17,14 +17,16 @@ $(document).ready(function(){
 
 		$.ajax({
 			type: "POST",
-			url: "http://cranio-mail-sender.herokuapp.com/email_sender.json",
+			url: 'http://cran.io:8080/mail.json',
 			dataType: "json",
-			data: ({
+			contentType: 'application/json',
+			data: (JSON.stringify({
 				data:{
 					message: $('#modalMessage').val(),
-					name: $('#modalEmail').val()
+					name: $('#modalName').val(),
+					email: $('#modalEmail').val()
 				}
-			})
+			}))
 		});
 	});
 });
