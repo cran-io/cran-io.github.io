@@ -366,7 +366,7 @@
 .white-link {
   color: white;
 }
-.white-link:link {color: white;}      /* unvisited link */
-.white-link:visited {color: white;}   /* visited link */
-.white-link:hover {color: white;}     /* mouse over link */
-.white-link:active {color: white;}    /* selected link */
+.white-link:link {color: white;}
+.white-link:visited {color: white;}
+.white-link:hover {color: white;}
+.white-link:active {color: white;}
