@@ -96,3 +96,6 @@ var lastTurn = function(x){
 }
 
 
+$(window).load(function(){
+   $('body').css({visibility: "visible"}).fadeTo(2000, 1);
+});
