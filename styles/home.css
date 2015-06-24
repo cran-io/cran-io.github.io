@@ -179,7 +179,7 @@ body{
 .divsFotos{
     position: absolute;
     bottom: 0;
-    width: 15%;
+    width: 13.5%;
     height: auto!important;
     display: inline;
 }
@@ -197,37 +197,40 @@ body{
     left: -0.5%;
 }
 #foto2{
-    left: 6%;
+    left: 5%;
 }
 #foto3{
-    left: 14.5%;
+    left: 13.5%;
 }
 #foto4{
-    left: 22.5%;
+    left: 20.5%;
 }
 #foto5{
-    left: 31%;
+    left: 28%;
 }
 #foto6{
-    left: 39.5%;
+    left: 36.5%;
 }
 #foto7{
-    left: 47%;
+    left: 42.5%;
 }
 #foto8{
-    left: 54.5%;
+    left: 49.5%;
 }
 #foto9{
-    left: 62.5%;
+    left: 57.5%;
 }
 #foto10{
-    left: 69.5%;
+    left: 64.5%;
 }
 #foto11{
-    left: 77.5%;
+    left: 72.5%;
 }
 #foto12{
-    left: 85.5%;
+    left: 79.5%;
+}
+#foto13{
+    left: 86.5%;
 }
 
 
