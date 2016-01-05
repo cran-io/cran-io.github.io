@@ -1,0 +1,26 @@
+{
+  "name": "cranio",
+  "version": "1.0.0",
+  "description": "cran-io-web ===========",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cran-io/cran-io.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cran-io/cran-io.github.io/issues"
+  },
+  "homepage": "https://github.com/cran-io/cran-io.github.io#readme"
+}

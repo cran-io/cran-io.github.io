@@ -25,15 +25,11 @@ $(document).ready(function(){
 		$(this).find(".logo").show();
 	});
 	$( ".divsFotos" ).mouseenter( function(){
-		$(this).find(".blackAndWhite").hide();
-		$(this).find(".color").show();
 		$('#nameTeam').html($(this).data('names'));
 		$('#whatHeDoTeam').html($(this).data('whathedo'));
 	});
 
 	$( ".divsFotos" ).mouseleave( function(){
-		$(this).find(".color").hide();
-		$(this).find(".blackAndWhite").show();
 		document.getElementById("nameTeam").innerHTML = " ";
 		document.getElementById("whatHeDoTeam").innerHTML = " ";
 
