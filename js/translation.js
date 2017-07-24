@@ -14,7 +14,7 @@ translations.es = {
    data_processing: "PROCESAMIENTO DE DATOS",
    hardware_design: "DISEÑO DE HARDWARE",
    embedded_systems: "SISTEMAS EMBEBIDOS",
-   signal_processing: "PROCESAMIENTO DE SEÑALES",
+   signal_processing: "INTERNET DE LAS COSAS - IOT",
 
    technology: "CÓMO LO HACEMOS",
    technology_description: "Tenemos la capacidad de innovar tanto en la selección de tecnologías como en su aplicación y en la integración entre ellas.",
@@ -23,7 +23,7 @@ translations.es = {
    data_processing_description: "Sabemos cómo almacenar y modelar relaciones para obtener información valiosa de grandes bases de datos.",
    hardware_design_description: "El diseño de placas electrónicas no sólo es ciencia. Es arte.",
    embedded_systems_description: "Somos amantes de las micro computadoras tanto para prototipado rapido como para el desarrollo de productos.",
-   signal_processing_description: "Las señales abundan y nos rodean. La creación de sistemas que las utilicen no tienen límites.",
+   signal_processing_description: "Todos los dispositivos que nos rodean pueden ser inteligentes, sólo basta con darles un cerebro.",
 
    the_team: "EL EQUIPO",
    the_team_description: "Un equipo joven y audaz. Un equipo pensante y profesional.",
@@ -59,7 +59,7 @@ translations.en = {
    data_processing: "DATA PROCESSING",
    hardware_design: "HARDWARE DESIGN",
    embedded_systems: "EMBEDDED SYSTEMS",
-   signal_processing: "SIGNAL PROCESSING",
+   signal_processing: "INTERNET OF THINGS",
 
    technology: "HOW WE DO IT",
    technology_description: "We chose the right technologies and we are eager to innovate in their application and integration.",
@@ -68,7 +68,7 @@ translations.en = {
    data_processing_description: "Data. Small or big. We know how to store it, model its relationships and get valuable information from it.",
    hardware_design_description: "Electronic board design is both art and science.",
    embedded_systems_description: "We love small, special purpose computers, and we know how to get the most of them writing blazing fast software.",
-   signal_processing_description: "In this world signals are over-abundant; grasp them all.",
+   signal_processing_description: "Every device is now potentially smarter. Are you ready to enchant the new and growing IoT?",
 
    the_team: "THE TEAM",
    the_team_description: "Young and courageous, yet thinkful and professional people. They will find passion in your project.",
