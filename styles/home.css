@@ -386,3 +386,12 @@ body{
 #finalMessageModalTitle{
     display:none;
 }
+
+
+.white-link {
+  color: white;
+}
+.white-link:link {color: white;}
+.white-link:visited {color: white;}
+.white-link:hover {color: white;}
+.white-link:active {color: white;}
